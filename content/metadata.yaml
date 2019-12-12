@@ -1,27 +1,116 @@
 ---
 title: "Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - machine learning
+  - icu
 lang: en-US
 author_info:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: gweissman
+    name: Gary E. Weissman
+    initials: GEW
+    orcid: 0000-0001-9588-3819
+    twitter: garyweissman
+    email: gary.weissman@uphs.upenn.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
     funders: Grant XXXXXXXX
   -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    github: trang1618
+    name: Trang T. Le
+    initials: TTL
+    orcid: 0000-0003-3737-6565
+    twitter: trang1618
+    email: ttle@pennmedicine.upenn.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+  -
+    github: lacava
+    name: William La Cava
+    initials: WLC
+    orcid: 0000-0002-1332-2960
+    twitter: w_la_cava
+    email: lacava@upenn.edu
+    affiliations:
+      - Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+  -
+    github: 
+    name: Marzana Chowdhury
+    initials: 
+    orcid: 
+    twitter: 
+    email: 
+    affiliations:
+      - Department of []
+  -
+    github: 
+    name: Steven Brooks
+    initials: 
+    orcid: 
+    twitter: 
+    email: 
+    affiliations:
+      - Department of []
+  -
+    github: 
+    name: Elizabeth L. Cooney
+    initials: 
+    orcid: 
+    twitter: 
+    email: 
+    affiliations:
+      - Department of []
+  -
+    github: 
+    name: Francisca Oredeko
+    initials: 
+    orcid: 
+    twitter: 
+    email: 
+    affiliations:
+      - Department of []
+  -
+    github: 
+    name: Trishya Srinivasan
+    initials: 
+    orcid: 
+    twitter: 
+    email: 
+    affiliations:
+      - Department of []
+  -
+    github: 
+    name: Stephanie Szymanski
+    initials: 
+    orcid: 
+    twitter: 
+    email: 
+    affiliations:
+      - Department of []
+  -
+    github: 
+    name: Michael E. Detsky
+    initials: 
+    orcid: 
+    twitter: 
+    email: 
+    affiliations:
+      - Department of []
+  -
+    github: EpistasisLab
+    name: Jason H. Moore
+    initials: JHM
+    orcid: 0000-0002-5015-1099
+    twitter: moorejh
+    email: jhmoore@upenn.edu
+    affiliations:
+      - Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+  -
+    github: 
+    name: Scott D. Halpern
+    initials: 
+    orcid: 
+    twitter: 
+    email: 
+    affiliations:
+      - Department of []
