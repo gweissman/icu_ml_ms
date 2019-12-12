@@ -2,30 +2,39 @@
   "pandoc": {
     "title": "Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit",
     "keywords": [
-      "markdown",
-      "publishing",
-      "manubot"
+      "machine learning",
+      "icu"
     ],
     "lang": "en-US",
     "date-meta": "2019-12-12",
     "author-meta": [
-      "John Doe",
-      "Jane Roe"
+      "Gary E. Weissman",
+      "Trang T. Le",
+      "William La Cava",
+      "Marzana Chowdhury",
+      "Steven Brooks",
+      "Elizabeth L. Cooney",
+      "Francisca Oredeko",
+      "Trishya Srinivasan",
+      "Stephanie Szymanski",
+      "Michael E. Detsky",
+      "Jason H. Moore",
+      "Scott D. Halpern"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta name=\"citation_title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta property=\"og:title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta property=\"twitter:title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta name=\"dc.date\" content=\"2019-12-12\" />\n<meta name=\"citation_publication_date\" content=\"2019-12-12\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta property=\"og:url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta property=\"twitter:url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta name=\"citation_pdf_url\" content=\"https://gweissman.github.io/icu_ml_ms/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://gweissman.github.io/icu_ml_ms/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://gweissman.github.io/icu_ml_ms/v/152e00c7d59dd4d6382b355cd33abadfe38e40b2/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://gweissman.github.io/icu_ml_ms/v/152e00c7d59dd4d6382b355cd33abadfe38e40b2/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://gweissman.github.io/icu_ml_ms/v/152e00c7d59dd4d6382b355cd33abadfe38e40b2/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta name=\"citation_title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta property=\"og:title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta property=\"twitter:title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta name=\"dc.date\" content=\"2019-12-12\" />\n<meta name=\"citation_publication_date\" content=\"2019-12-12\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Gary E. Weissman\" />\n<meta name=\"citation_author_institution\" content=\"Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9588-3819\" />\n<meta name=\"twitter:creator\" content=\"@garyweissman\" />\n<meta name=\"citation_author\" content=\"Trang T. Le\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3737-6565\" />\n<meta name=\"twitter:creator\" content=\"@trang1618\" />\n<meta name=\"citation_author\" content=\"William La Cava\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1332-2960\" />\n<meta name=\"twitter:creator\" content=\"@w_la_cava\" />\n<meta name=\"citation_author\" content=\"Marzana Chowdhury\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Steven Brooks\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Elizabeth L. Cooney\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Francisca Oredeko\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Trishya Srinivasan\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Stephanie Szymanski\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Michael E. Detsky\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Jason H. Moore\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5015-1099\" />\n<meta name=\"twitter:creator\" content=\"@moorejh\" />\n<meta name=\"citation_author\" content=\"Scott D. Halpern\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<link rel=\"canonical\" href=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta property=\"og:url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta property=\"twitter:url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta name=\"citation_pdf_url\" content=\"https://gweissman.github.io/icu_ml_ms/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://gweissman.github.io/icu_ml_ms/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
   },
   "manubot": {
     "date": "December 12, 2019",
     "authors": [
       {
-        "github": "johndoe",
-        "name": "John Doe",
-        "initials": "JD",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "twitter": "johndoe",
-        "email": "john.doe@something.com",
+        "github": "gweissman",
+        "name": "Gary E. Weissman",
+        "initials": "GEW",
+        "orcid": "0000-0001-9588-3819",
+        "twitter": "garyweissman",
+        "email": "gary.weissman@uphs.upenn.edu",
         "affiliations": [
-          "Department of Something, University of Whatever"
+          "Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "funders": "Grant XXXXXXXX",
         "affiliation_numbers": [
@@ -33,29 +42,172 @@
         ]
       },
       {
-        "github": "janeroe",
-        "name": "Jane Roe",
-        "initials": "JR",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "email": "jane.roe@whatever.edu",
+        "github": "trang1618",
+        "name": "Trang T. Le",
+        "initials": "TTL",
+        "orcid": "0000-0003-3737-6565",
+        "twitter": "trang1618",
+        "email": "ttle@pennmedicine.upenn.edu",
         "affiliations": [
-          "Department of Something, University of Whatever",
-          "Department of Whatever, University of Something"
+          "Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "affiliation_numbers": [
-          1,
           2
+        ]
+      },
+      {
+        "github": "lacava",
+        "name": "William La Cava",
+        "initials": "WLC",
+        "orcid": "0000-0002-1332-2960",
+        "twitter": "w_la_cava",
+        "email": "lacava@upenn.edu",
+        "affiliations": [
+          "Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104"
+        ],
+        "affiliation_numbers": [
+          2
+        ]
+      },
+      {
+        "github": null,
+        "name": "Marzana Chowdhury",
+        "initials": null,
+        "orcid": null,
+        "twitter": null,
+        "email": null,
+        "affiliations": [
+          "Department of []"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": null,
+        "name": "Steven Brooks",
+        "initials": null,
+        "orcid": null,
+        "twitter": null,
+        "email": null,
+        "affiliations": [
+          "Department of []"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": null,
+        "name": "Elizabeth L. Cooney",
+        "initials": null,
+        "orcid": null,
+        "twitter": null,
+        "email": null,
+        "affiliations": [
+          "Department of []"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": null,
+        "name": "Francisca Oredeko",
+        "initials": null,
+        "orcid": null,
+        "twitter": null,
+        "email": null,
+        "affiliations": [
+          "Department of []"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": null,
+        "name": "Trishya Srinivasan",
+        "initials": null,
+        "orcid": null,
+        "twitter": null,
+        "email": null,
+        "affiliations": [
+          "Department of []"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": null,
+        "name": "Stephanie Szymanski",
+        "initials": null,
+        "orcid": null,
+        "twitter": null,
+        "email": null,
+        "affiliations": [
+          "Department of []"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": null,
+        "name": "Michael E. Detsky",
+        "initials": null,
+        "orcid": null,
+        "twitter": null,
+        "email": null,
+        "affiliations": [
+          "Department of []"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": "EpistasisLab",
+        "name": "Jason H. Moore",
+        "initials": "JHM",
+        "orcid": "0000-0002-5015-1099",
+        "twitter": "moorejh",
+        "email": "jhmoore@upenn.edu",
+        "affiliations": [
+          "Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104"
+        ],
+        "affiliation_numbers": [
+          2
+        ]
+      },
+      {
+        "github": null,
+        "name": "Scott D. Halpern",
+        "initials": null,
+        "orcid": null,
+        "twitter": null,
+        "email": null,
+        "affiliations": [
+          "Department of []"
+        ],
+        "affiliation_numbers": [
+          3
         ]
       }
     ],
     "affiliations": [
       {
-        "affiliation": "Department of Something, University of Whatever",
+        "affiliation": "Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104",
         "affiliation_number": 1
       },
       {
-        "affiliation": "Department of Whatever, University of Something",
+        "affiliation": "Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104",
         "affiliation_number": 2
+      },
+      {
+        "affiliation": "Department of []",
+        "affiliation_number": 3
       }
     ],
     "ci_source": {
@@ -63,22 +215,22 @@
       "repo_slug": "gweissman/icu_ml_ms",
       "repo_owner": "gweissman",
       "repo_name": "icu_ml_ms",
-      "commit": "152e00c7d59dd4d6382b355cd33abadfe38e40b2",
-      "triggering_commit": "152e00c7d59dd4d6382b355cd33abadfe38e40b2",
-      "build_url": "https://travis-ci.com/gweissman/icu_ml_ms/builds/140852186",
-      "job_url": "https://travis-ci.com/gweissman/icu_ml_ms/jobs/266642013"
+      "commit": "59d6bae8e44136e33978320d069ad7f8aa0cf22f",
+      "triggering_commit": "59d6bae8e44136e33978320d069ad7f8aa0cf22f",
+      "build_url": "https://travis-ci.com/gweissman/icu_ml_ms/builds/140854564",
+      "job_url": "https://travis-ci.com/gweissman/icu_ml_ms/jobs/266648127"
     },
     "html_url": "https://gweissman.github.io/icu_ml_ms/",
     "pdf_url": "https://gweissman.github.io/icu_ml_ms/manuscript.pdf",
-    "html_url_versioned": "https://gweissman.github.io/icu_ml_ms/v/152e00c7d59dd4d6382b355cd33abadfe38e40b2/",
-    "pdf_url_versioned": "https://gweissman.github.io/icu_ml_ms/v/152e00c7d59dd4d6382b355cd33abadfe38e40b2/manuscript.pdf",
+    "html_url_versioned": "https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/",
+    "pdf_url_versioned": "https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/manuscript.pdf",
     "manuscript_stats": {
       "reference_counts": {
         "doi": 3,
         "url": 1,
         "total": 4
       },
-      "word_count": 1857
+      "word_count": 1855
     }
   }
 }

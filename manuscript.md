@@ -1,7 +1,17 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Gary E. Weissman
+- Trang T. Le
+- William La Cava
+- Marzana Chowdhury
+- Steven Brooks
+- Elizabeth L. Cooney
+- Francisca Oredeko
+- Trishya Srinivasan
+- Stephanie Szymanski
+- Michael E. Detsky
+- Jason H. Moore
+- Scott D. Halpern
 date-meta: '2019-12-12'
 header-includes: '<!--
 
@@ -37,21 +47,101 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Gary E. Weissman" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0001-9588-3819" />
 
-  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="twitter:creator" content="@garyweissman" />
 
-  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author" content="Trang T. Le" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
 
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author_orcid" content="0000-0003-3737-6565" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="twitter:creator" content="@trang1618" />
+
+  <meta name="citation_author" content="William La Cava" />
+
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
+
+  <meta name="citation_author_orcid" content="0000-0002-1332-2960" />
+
+  <meta name="twitter:creator" content="@w_la_cava" />
+
+  <meta name="citation_author" content="Marzana Chowdhury" />
+
+  <meta name="citation_author_institution" content="Department of []" />
+
+  <meta name="citation_author_orcid" content="None" />
+
+  <meta name="twitter:creator" content="@None" />
+
+  <meta name="citation_author" content="Steven Brooks" />
+
+  <meta name="citation_author_institution" content="Department of []" />
+
+  <meta name="citation_author_orcid" content="None" />
+
+  <meta name="twitter:creator" content="@None" />
+
+  <meta name="citation_author" content="Elizabeth L. Cooney" />
+
+  <meta name="citation_author_institution" content="Department of []" />
+
+  <meta name="citation_author_orcid" content="None" />
+
+  <meta name="twitter:creator" content="@None" />
+
+  <meta name="citation_author" content="Francisca Oredeko" />
+
+  <meta name="citation_author_institution" content="Department of []" />
+
+  <meta name="citation_author_orcid" content="None" />
+
+  <meta name="twitter:creator" content="@None" />
+
+  <meta name="citation_author" content="Trishya Srinivasan" />
+
+  <meta name="citation_author_institution" content="Department of []" />
+
+  <meta name="citation_author_orcid" content="None" />
+
+  <meta name="twitter:creator" content="@None" />
+
+  <meta name="citation_author" content="Stephanie Szymanski" />
+
+  <meta name="citation_author_institution" content="Department of []" />
+
+  <meta name="citation_author_orcid" content="None" />
+
+  <meta name="twitter:creator" content="@None" />
+
+  <meta name="citation_author" content="Michael E. Detsky" />
+
+  <meta name="citation_author_institution" content="Department of []" />
+
+  <meta name="citation_author_orcid" content="None" />
+
+  <meta name="twitter:creator" content="@None" />
+
+  <meta name="citation_author" content="Jason H. Moore" />
+
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
+
+  <meta name="citation_author_orcid" content="0000-0002-5015-1099" />
+
+  <meta name="twitter:creator" content="@moorejh" />
+
+  <meta name="citation_author" content="Scott D. Halpern" />
+
+  <meta name="citation_author_institution" content="Department of []" />
+
+  <meta name="citation_author_orcid" content="None" />
+
+  <meta name="twitter:creator" content="@None" />
 
   <link rel="canonical" href="https://gweissman.github.io/icu_ml_ms/" />
 
@@ -65,11 +155,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/152e00c7d59dd4d6382b355cd33abadfe38e40b2/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/152e00c7d59dd4d6382b355cd33abadfe38e40b2/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/152e00c7d59dd4d6382b355cd33abadfe38e40b2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -83,9 +173,8 @@ header-includes: '<!--
 
   <!-- end Manubot generated metadata -->'
 keywords:
-- markdown
-- publishing
-- manubot
+- machine learning
+- icu
 lang: en-US
 title: Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit
 ...
@@ -97,9 +186,9 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/152e00c7d59dd4d6382b355cd33abadfe38e40b2/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/))
 was automatically generated
-from [gweissman/icu_ml_ms@152e00c](https://github.com/gweissman/icu_ml_ms/tree/152e00c7d59dd4d6382b355cd33abadfe38e40b2)
+from [gweissman/icu_ml_ms@59d6bae](https://github.com/gweissman/icu_ml_ms/tree/59d6bae8e44136e33978320d069ad7f8aa0cf22f)
 on December 12, 2019.
 </em></small>
 
@@ -107,25 +196,89 @@ on December 12, 2019.
 
 
 
-+ **John Doe**<br>
++ **Gary E. Weissman**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0001-9588-3819](https://orcid.org/0000-0001-9588-3819)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [gweissman](https://github.com/gweissman)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [garyweissman](https://twitter.com/garyweissman)<br>
   <small>
-     Department of Something, University of Whatever
+     Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
      · Funded by Grant XXXXXXXX
   </small>
 
-+ **Jane Roe**<br>
++ **Trang T. Le**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-3737-6565](https://orcid.org/0000-0003-3737-6565)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [trang1618](https://github.com/trang1618)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [trang1618](https://twitter.com/trang1618)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+  </small>
+
++ **William La Cava**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-1332-2960](https://orcid.org/0000-0002-1332-2960)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [lacava](https://github.com/lacava)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [w_la_cava](https://twitter.com/w_la_cava)<br>
+  <small>
+     Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+  </small>
+
++ **Marzana Chowdhury**<br><br>
+  <small>
+     Department of []
+  </small>
+
++ **Steven Brooks**<br><br>
+  <small>
+     Department of []
+  </small>
+
++ **Elizabeth L. Cooney**<br><br>
+  <small>
+     Department of []
+  </small>
+
++ **Francisca Oredeko**<br><br>
+  <small>
+     Department of []
+  </small>
+
++ **Trishya Srinivasan**<br><br>
+  <small>
+     Department of []
+  </small>
+
++ **Stephanie Szymanski**<br><br>
+  <small>
+     Department of []
+  </small>
+
++ **Michael E. Detsky**<br><br>
+  <small>
+     Department of []
+  </small>
+
++ **Jason H. Moore**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-5015-1099](https://orcid.org/0000-0002-5015-1099)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [EpistasisLab](https://github.com/EpistasisLab)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [moorejh](https://twitter.com/moorejh)<br>
+  <small>
+     Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+  </small>
+
++ **Scott D. Halpern**<br><br>
+  <small>
+     Department of []
   </small>
 
 
@@ -147,7 +300,7 @@ When such datasets do exist, they tend to be much smaller than large EHR or clai
 Therefore, we turn our attention to these small and clinically relevant datasets: how well do standard practices for “big data” methods in predictive modeling hold up on these smaller clinical datasets? For example, split-sampling is a common approach to internal validation.
 With an extremely large dataset with millions of observations, the difference between a testing sample of 20% or 25% may not matter.
 But if the data set has only a few hundred observations, a careful consideration of sufficient sample size in the training set to fit a model is balanced against the need for sufficient sample size in the test set to construct a clinically meaningful confidence interval.
-Similarly, the approach to missing data --- common in clinical datasets ---- for such small datasets used for prediction is unknown.
+Similarly, the approach to missing data --- common in clinical datasets --- for such small datasets used for prediction is unknown.
 The removal of complete cases is relatively costly given the small number of observations.
 Finally, all of these decisions could be guided by statistical expertise and clinical insight into the problem at hand, or could be left to purely automated methods — called “automated machine learning” to use the data itself to guide analytic choices around model selection and imputation.
 
@@ -245,9 +398,9 @@ We calculated the time it took to train all models of each type using desktop ha
 
 ## Results
 
-For the primary analysis, testing a six-month mortality prediction using one day of data, an 80/20 split, and an individualized imputation strategy, the traditional logistic regression model yielded the highest point estimate of performance, although did not differ statistically (p>0.08 for all comparisons; Figure 1).
+For the primary analysis, testing a six-month mortality prediction using one day of data, an 80/20 split, and an individualized imputation strategy, the traditional logistic regression model yielded the highest point estimate of performance, although did not differ statistically ($p>0.08$ for all comparisons; Figure {@fig:brier_scores}).
 
-![Figure 1: Scaled Brier Score of each modeling approach to predict six-month mortality in the hold-test test set using one day of data, an individualized imputation strategy, and an 80/20 training/testing split. Abbreviations: MLR = multivariable logistic regression, PLR = penalized logistic regression, TPOT = Tree-based Pipeline Optimization Tool.](exhibits/figure_01.png)
+![Scaled Brier Score of each modeling approach to predict six-month mortality in the hold-test test set using one day of data, an individualized imputation strategy, and an 80/20 training/testing split. Abbreviations: MLR = multivariable logistic regression, PLR = penalized logistic regression, TPOT = Tree-based Pipeline Optimization Tool.](images/figure_01.png){#fig:brier_scores}
 
 
 
