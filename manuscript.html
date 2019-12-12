@@ -48,9 +48,9 @@
   <meta property="twitter:url" content="https://gweissman.github.io/icu_ml_ms/" />
   <meta name="citation_fulltext_html_url" content="https://gweissman.github.io/icu_ml_ms/" />
   <meta name="citation_pdf_url" content="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/104884295e0fdf20268e8663addbd8bfc58fc466/" />
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/104884295e0fdf20268e8663addbd8bfc58fc466/" />
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/104884295e0fdf20268e8663addbd8bfc58fc466/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/f1f742ded38d8dd2951f42f43221e19975616736/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/f1f742ded38d8dd2951f42f43221e19975616736/" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/f1f742ded38d8dd2951f42f43221e19975616736/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -61,17 +61,134 @@
 <header id="title-block-header">
 <h1 class="title">Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://gweissman.github.io/icu_ml_ms/v/104884295e0fdf20268e8663addbd8bfc58fc466/">permalink</a>) was automatically generated from <a href="https://github.com/gweissman/icu_ml_ms/tree/104884295e0fdf20268e8663addbd8bfc58fc466">gweissman/icu_ml_ms@1048842</a> on December 12, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://gweissman.github.io/icu_ml_ms/v/f1f742ded38d8dd2951f42f43221e19975616736/">permalink</a>) was automatically generated from <a href="https://github.com/gweissman/icu_ml_ms/tree/f1f742ded38d8dd2951f42f43221e19975616736">gweissman/icu_ml_ms@f1f742d</a> on December 12, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
 <li><p><strong>Jane Roe</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/janeroe">janeroe</a><br> <small> Department of Something, University of Whatever; Department of Whatever, University of Something </small></p></li>
 </ul>
 <h2 id="abstract" class="page_break_before">Abstract</h2>
+<h2 id="introduction">Introduction</h2>
+<p>A surge of interest in predictive modeling techniques has paralleled the increasing availability of large data sets and open source software packages that allow nearly out-of-the-box model development. The popularity of and potential for data science methods is particularly relevant to the health care setting where decision making under uncertainty with large and varied data inputs are the daily norm. However, many such modeling approaches have failed to yield evidence for their use in a real-world clinical setting. One important reason for this lack of evidence for clinical prediction models is that large, observational datasets — such as those derived from electronic health records or administrative claims databases — are, despite being large and readily available, still fraught with selection bias and omitted variables, and frequently collected without the interests of the predictive analyst in mind. Prospectively collected and clinically rich datasets with relevant, patient-centered outcomes are more rare. When such datasets do exist, they tend to be much smaller than large EHR or claims databases because of the higher resources required to develop them.</p>
+<p>Therefore, we turn our attention to these small and clinically relevant datasets: how well do standard practices for “big data” methods in predictive modeling hold up on these smaller clinical datasets? For example, split-sampling is a common approach to internal validation. With an extremely large dataset with millions of observations, the difference between a testing sample of 20% or 25% may not matter. But if the data set has only a few hundred observations, a careful consideration of sufficient sample size in the training set to fit a model is balanced against the need for sufficient sample size in the test set to construct a clinically meaningful confidence interval. Similarly, the approach to missing data — common in clinical datasets —- for such small datasets used for prediction is unknown. The removal of complete cases is relatively costly given the small number of observations. Finally, all of these decisions could be guided by statistical expertise and clinical insight into the problem at hand, or could be left to purely automated methods — called “automated machine learning” to use the data itself to guide analytic choices around model selection and imputation.</p>
+<p>Therefore, using a small clinical dataset, we sought to compare different approaches to split sampling, handling of missing values, and choosing a model type across two long-term outcomes in patients with critical illness.</p>
+<h2 id="methods">Methods</h2>
+<p>We compared the predictive performance of manual versus automated modeling strategies across different approaches for split-sampling, handling of missing data, and the use of temporal data trends. Individual investigators were responsible for implementing the manual (GW), automated (TL), and automated with temporal features (WL) modeling approaches in a competition-style format. Only one investigator (SB) had access to the outcomes in the testing dataset for evaluation until after all models had been trained.</p>
+<h3 id="population-and-data-collection">Population and Data Collection</h3>
+<p>We used a dataset derived from a prospective cohort study that was conducted from 2013 to 2014 among patients who spent at least three days in an intensive care unit (ICU) <span class="citation" data-cites="OcPf8cNA">[<a href="#ref-OcPf8cNA" role="doc-biblioref">1</a>]</span>. Among 303 patients in the original cohort, 301 (99.3%) had sufficient identifiers to be linked to their original chart in the electronic health record (EHR) to query detailed clinical data. Interviews with patients and their surrogate decision makers were used to determine their quality of life prior to ICU admission. Mortality status at six months after discharge was determined with review of the EHR and follow-up phone calls with patients and surrogates.</p>
+<h3 id="outcomes">Outcomes</h3>
+<p>For the primary analysis, each modeling approach was used to predict mortality after six months from hospital discharge. In a secondary analysis, each modeling approach was used to predict the patient’s quality of life, defined as a binary variable of whether the quality of life was at least as good as it was prior to the ICU admission.</p>
+<h3 id="model-types">Model Types</h3>
+<h4 id="manual-machine-learning">Manual machine learning</h4>
+<p>We used the scikit-learn software package in Python to train a traditional multivariable logistic regression model, a penalized regression model (L1 and L2 penalties), and an XGBoost classification model <span class="citation" data-cites="1iuWTU7i">[<a href="#ref-1iuWTU7i" role="doc-biblioref">2</a>]</span>. Because of the small sample sizes and relatively large number of features, each model was trained using the first 20 principle components of each training dataset. In all cases, the same decomposition was used for the training and testing datasets. Tuning parameters for the penalized regression and the XGBoost model were determined by grid search with 5-fold cross validation.</p>
+<h4 id="automated-machine-learning">Automated Machine Learning</h4>
+<p>To test the performance of models developed through an automated machine learning approach, we used the Tree-based Pipeline Optimization Tool (TPOT). TODO(Trang)</p>
+<h4 id="feat">Feat</h4>
+<p>To test the performance of an automated machine learning pipeline that could … TODO(Bill)</p>
+<h3 id="missing-data">Missing Data</h3>
+<p>A manual chart review of the EHR confirmed that none of the missing data elements were due to an error in the dataset or database query, but were rather due to data not entered into the EHR. We employed three different approaches to handling missing data to understand their effects on model performance in small clinical datasets and to see how they were related to performance using different modeling approaches.</p>
+<p>First, we left all data as missing and allowed each modeling approach to deal with the data differently. For the manually trained models, missingness indicator variables were generated for SBP, pH, albumin, and FiO2, considering that their absence would be informative based on clinical experience caring for patients in the ICU. The remaining missing data were imputed using a k-nearest neighbors procedure. For the TPOT models, median imputation was used for all missing variables. For the Feat models, TODO(Bill).</p>
+<p>Second, we pre-imputed all missing data so that all modeling approaches used the same imputed dataset. Imputation in this case was performed with the mice package in R using Bayesian linear regression.<span class="citation" data-cites="M2iYoflW">[<a href="#ref-M2iYoflW" role="doc-biblioref">3</a>]</span></p>
+<p>Third, we performed a complete case analysis by entirely excluding the 8 most missing variables, then removing observations that had any missingness among the remaining variables.</p>
+<h3 id="split-sampling">Split Sampling</h3>
+<p>The data were divided into training and testing samples using two different strategies. The first strategy used 80% and 20% splits for training and testing, respectively. The second used 50% and 50% splits. Split sampling for both strategies was performed with balanced stratification on ICU type (medical and non-medical) and by quartile of the APACHE score. The observations were sampled such that the 20% test set is a subset of the 50% test set.</p>
+<h3 id="days-of-data">Days of data</h3>
+<p>Numerous ICU mortality prediction models use data from the first 24 hours following admission. Therefore, we aggregated available laboratory values and vital signs from the first 24 hours of the ICU admission in which each patient was enrolled in the initial study.</p>
+<p>However, the trajectory of a patient’s illness is sometimes not identifiable within the first 24 hours. It is unknown to what degree such temporal data, if at all, improves predictions of long-term outcomes. Therefore, we included an additional set of models with data from both the first and second 24-hour periods of the ICU admission.</p>
+<p>For the manually created models, the difference between the two time periods was calculated for SBP, WBCs, FiO2, and UOP. These variables were chosen based on clinical experience as potentially relevant for determining a patient’s trajectory. For TPOT and Feat, other features were … TODO(Trang), TODO(Bill)</p>
+<h3 id="model-performance">Model Performance</h3>
+<p>We evaluated the predictive performance of each model using the scaled Brier Score (<span class="math inline">\(BS_s\)</span>) as a measure that captures both discrimination and calibration <span class="citation" data-cites="2Adg9qeV">[<a href="#ref-2Adg9qeV" role="doc-biblioref">4</a>]</span>. Over <span class="math inline">\(N\)</span> predicted probabilities <span class="math inline">\(p\)</span> for some binary outcome <span class="math inline">\(y\)</span>, the Brier Score is defined as</p>
+<p><span class="math display">\[
+BS = \frac{1}{N}\sum_i^N (y_i - p_i)^2.
+\]</span></p>
+<p>However, a useful prediction model should do better than just guessing the baseline event rate as a probability, and so scaling the Brier Score to this uninformed guess motivates using the scaled Brier Score such that</p>
+<p><span class="math display">\[
+BS_s = 1 - \frac{\frac{1}{N}\sum_i^N (y_i - p_i)^2}{\frac{1}{N}\sum_i^N (y_i - \bar y)^2}.
+\]</span></p>
+<p>A Scaled Brier Score of zero indicates that the model is equivalent to guessing the baseline event rate for each observation, a negative score indicates that the model is worse than this, and a positive score indicates that the model is better.</p>
+<p>We generated confidence intervals around each performance estimate by calculating the Scaled Brier Score from 1,000 bootstrapped replicates of the predictions and observations for each model. Differences in performance between models were calculated by estimating the boostrapped differences using 1,000 replicates.</p>
+<h3 id="computational-resources">Computational resources</h3>
+<p>We calculated the time it took to train all models of each type using desktop hardware and utilizing parallel processing when available.</p>
+<h2 id="results">Results</h2>
+<p>For the primary analysis, testing a six-month mortality prediction using one day of data, an 80/20 split, and an individualized imputation strategy, the traditional logistic regression model yielded the highest point estimate of performance, although did not differ statistically (p&gt;0.08 for all comparisons; Figure 1).</p>
+<figure>
+<img src="exhibits/figure_01.png" alt="" /><figcaption>Figure 1: Scaled Brier Score of each modeling approach to predict six-month mortality in the hold-test test set using one day of data, an individualized imputation strategy, and an 80/20 training/testing split. Abbreviations: MLR = multivariable logistic regression, PLR = penalized logistic regression, TPOT = Tree-based Pipeline Optimization Tool.</figcaption>
+</figure>
+<h3 id="computational-resources-1">Computational resources</h3>
+<p>The (Table 1).</p>
+<table>
+<thead>
+<tr class="header">
+<th>Model type</th>
+<th>Time (seconds)</th>
+<th>Time (hours)</th>
+<th>Relative Time</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>MLR</td>
+<td>2.00</td>
+<td>0.001</td>
+<td>x1</td>
+</tr>
+<tr class="even">
+<td>PLR</td>
+<td>5.16</td>
+<td>0.001</td>
+<td>x2.6</td>
+</tr>
+<tr class="odd">
+<td>Feat</td>
+<td>95,244.82</td>
+<td>26.5</td>
+<td>x47,613</td>
+</tr>
+<tr class="even">
+<td>TPOT - Standard</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>TPOT - Template</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<!---
+TODO(Trang): I couldn't tell from the notebook how long the TPOT runs took, please insert in Table 1. Thanks!
+--->
+<p>Table: Time required to train all models of each type.</p>
+<h2 id="discussion">Discussion</h2>
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
-
+<div id="ref-OcPf8cNA">
+<p>1. <strong>Discriminative Accuracy of Physician and Nurse Predictions for Survival and Functional Outcomes 6 Months After an ICU Admission</strong><br />
+Michael E. Detsky, Michael O. Harhay, Dominique F. Bayard, Aaron M. Delman, Anna E. Buehler, Saida A. Kent, Isabella V. Ciuffetelli, Elizabeth Cooney, Nicole B. Gabler, Sarah J. Ratcliffe, … Scott D. Halpern<br />
+<em>JAMA</em> (2017-06-06) <a href="https://doi.org/ggffz2">https://doi.org/ggffz2</a><br />
+DOI: <a href="https://doi.org/10.1001/jama.2017.4078">10.1001/jama.2017.4078</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28528347">28528347</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5710341">PMC5710341</a></p>
+</div>
+<div id="ref-1iuWTU7i">
+<p>2. <strong>Scikit-learn: Machine Learning in Python</strong><br />
+Fabian Pedregosa, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss, Vincent Dubourg, … Édouard Duchesnay<br />
+<em>Journal of Machine Learning Research</em> (2011-10) <a href="https://hal.inria.fr/hal-00650905">https://hal.inria.fr/hal-00650905</a></p>
+</div>
+<div id="ref-M2iYoflW">
+<p>3. <strong>mice: Multivariate Imputation by Chained Equations inR</strong><br />
+Stef van Buuren, Karin Groothuis-Oudshoorn<br />
+<em>Journal of Statistical Software</em> (2011) <a href="https://doi.org/gbw279">https://doi.org/gbw279</a><br />
+DOI: <a href="https://doi.org/10.18637/jss.v045.i03">10.18637/jss.v045.i03</a></p>
+</div>
+<div id="ref-2Adg9qeV">
+<p>4. <strong>Assessing the Performance of Prediction Models</strong><br />
+Ewout W. Steyerberg, Andrew J. Vickers, Nancy R. Cook, Thomas Gerds, Mithat Gonen, Nancy Obuchowski, Michael J. Pencina, Michael W. Kattan<br />
+<em>Epidemiology</em> (2010-01) <a href="https://doi.org/bj7bng">https://doi.org/bj7bng</a><br />
+DOI: <a href="https://doi.org/10.1097/ede.0b013e3181c30fb2">10.1097/ede.0b013e3181c30fb2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20010215">20010215</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3575184">PMC3575184</a></p>
+</div>
 </div>
 <!-- default theme -->
 
