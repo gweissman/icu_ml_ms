@@ -1,0 +1,82 @@
+{
+  "pandoc": {
+    "title": "Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit",
+    "keywords": [
+      "markdown",
+      "publishing",
+      "manubot"
+    ],
+    "lang": "en-US",
+    "date-meta": "2019-12-12",
+    "author-meta": [
+      "John Doe",
+      "Jane Roe"
+    ],
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta name=\"citation_title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta property=\"og:title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta property=\"twitter:title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta name=\"dc.date\" content=\"2019-12-12\" />\n<meta name=\"citation_publication_date\" content=\"2019-12-12\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta property=\"og:url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta property=\"twitter:url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta name=\"citation_pdf_url\" content=\"https://gweissman.github.io/icu_ml_ms/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://gweissman.github.io/icu_ml_ms/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://gweissman.github.io/icu_ml_ms/v/104884295e0fdf20268e8663addbd8bfc58fc466/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://gweissman.github.io/icu_ml_ms/v/104884295e0fdf20268e8663addbd8bfc58fc466/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://gweissman.github.io/icu_ml_ms/v/104884295e0fdf20268e8663addbd8bfc58fc466/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+  },
+  "manubot": {
+    "date": "December 12, 2019",
+    "authors": [
+      {
+        "github": "johndoe",
+        "name": "John Doe",
+        "initials": "JD",
+        "orcid": "XXXX-XXXX-XXXX-XXXX",
+        "twitter": "johndoe",
+        "email": "john.doe@something.com",
+        "affiliations": [
+          "Department of Something, University of Whatever"
+        ],
+        "funders": "Grant XXXXXXXX",
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "github": "janeroe",
+        "name": "Jane Roe",
+        "initials": "JR",
+        "orcid": "XXXX-XXXX-XXXX-XXXX",
+        "email": "jane.roe@whatever.edu",
+        "affiliations": [
+          "Department of Something, University of Whatever",
+          "Department of Whatever, University of Something"
+        ],
+        "affiliation_numbers": [
+          1,
+          2
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "affiliation": "Department of Something, University of Whatever",
+        "affiliation_number": 1
+      },
+      {
+        "affiliation": "Department of Whatever, University of Something",
+        "affiliation_number": 2
+      }
+    ],
+    "ci_source": {
+      "provider": "travis",
+      "repo_slug": "gweissman/icu_ml_ms",
+      "repo_owner": "gweissman",
+      "repo_name": "icu_ml_ms",
+      "commit": "104884295e0fdf20268e8663addbd8bfc58fc466",
+      "triggering_commit": "104884295e0fdf20268e8663addbd8bfc58fc466",
+      "build_url": "https://travis-ci.com/gweissman/icu_ml_ms/builds/140846518",
+      "job_url": "https://travis-ci.com/gweissman/icu_ml_ms/jobs/266627429"
+    },
+    "html_url": "https://gweissman.github.io/icu_ml_ms/",
+    "pdf_url": "https://gweissman.github.io/icu_ml_ms/manuscript.pdf",
+    "html_url_versioned": "https://gweissman.github.io/icu_ml_ms/v/104884295e0fdf20268e8663addbd8bfc58fc466/",
+    "pdf_url_versioned": "https://gweissman.github.io/icu_ml_ms/v/104884295e0fdf20268e8663addbd8bfc58fc466/manuscript.pdf",
+    "manuscript_stats": {
+      "reference_counts": {
+        "total": 0
+      },
+      "word_count": 243
+    }
+  }
+}
