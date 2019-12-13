@@ -6,7 +6,7 @@
       "icu"
     ],
     "lang": "en-US",
-    "date-meta": "2019-12-12",
+    "date-meta": "2019-12-13",
     "author-meta": [
       "Gary E. Weissman",
       "Trang T. Le",
@@ -21,10 +21,10 @@
       "Jason H. Moore",
       "Scott D. Halpern"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta name=\"citation_title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta property=\"og:title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta property=\"twitter:title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta name=\"dc.date\" content=\"2019-12-12\" />\n<meta name=\"citation_publication_date\" content=\"2019-12-12\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Gary E. Weissman\" />\n<meta name=\"citation_author_institution\" content=\"Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9588-3819\" />\n<meta name=\"twitter:creator\" content=\"@garyweissman\" />\n<meta name=\"citation_author\" content=\"Trang T. Le\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3737-6565\" />\n<meta name=\"twitter:creator\" content=\"@trang1618\" />\n<meta name=\"citation_author\" content=\"William La Cava\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1332-2960\" />\n<meta name=\"twitter:creator\" content=\"@w_la_cava\" />\n<meta name=\"citation_author\" content=\"Marzana Chowdhury\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Steven Brooks\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Elizabeth L. Cooney\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Francisca Oredeko\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Trishya Srinivasan\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Stephanie Szymanski\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Michael E. Detsky\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Jason H. Moore\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5015-1099\" />\n<meta name=\"twitter:creator\" content=\"@moorejh\" />\n<meta name=\"citation_author\" content=\"Scott D. Halpern\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<link rel=\"canonical\" href=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta property=\"og:url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta property=\"twitter:url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta name=\"citation_pdf_url\" content=\"https://gweissman.github.io/icu_ml_ms/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://gweissman.github.io/icu_ml_ms/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta name=\"citation_title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta property=\"og:title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta property=\"twitter:title\" content=\"Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit\" />\n<meta name=\"dc.date\" content=\"2019-12-13\" />\n<meta name=\"citation_publication_date\" content=\"2019-12-13\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Gary E. Weissman\" />\n<meta name=\"citation_author_institution\" content=\"Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_institution\" content=\"Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9588-3819\" />\n<meta name=\"twitter:creator\" content=\"@garyweissman\" />\n<meta name=\"citation_author\" content=\"Trang T. Le\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3737-6565\" />\n<meta name=\"twitter:creator\" content=\"@trang1618\" />\n<meta name=\"citation_author\" content=\"William La Cava\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1332-2960\" />\n<meta name=\"twitter:creator\" content=\"@w_la_cava\" />\n<meta name=\"citation_author\" content=\"Marzana Chowdhury\" />\n<meta name=\"citation_author_institution\" content=\"Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Steven Brooks\" />\n<meta name=\"citation_author_institution\" content=\"Department of []\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Elizabeth L. Cooney\" />\n<meta name=\"citation_author_institution\" content=\"Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Francisca Oredeko\" />\n<meta name=\"citation_author_institution\" content=\"Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Trishya Srinivasan\" />\n<meta name=\"citation_author_institution\" content=\"School of Medicine, Wayne State University, Detroit, MI 48201\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Stephanie Szymanski\" />\n<meta name=\"citation_author_institution\" content=\"Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Michael E. Detsky\" />\n<meta name=\"citation_author_institution\" content=\"Department of Medicine, Sinai Health System, Toronto, Ontario, Canada\" />\n<meta name=\"citation_author_institution\" content=\"Interdepartmental Division of Critical Care Medicine and Department of Medicine, University of Toronto, Toronto, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8305-2137\" />\n<meta name=\"twitter:creator\" content=\"@michael_detsky\" />\n<meta name=\"citation_author\" content=\"Jason H. Moore\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5015-1099\" />\n<meta name=\"twitter:creator\" content=\"@moorejh\" />\n<meta name=\"citation_author\" content=\"Scott D. Halpern\" />\n<meta name=\"citation_author_institution\" content=\"Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_institution\" content=\"Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3603-4769\" />\n<meta name=\"twitter:creator\" content=\"@ScottHalperMD\" />\n<link rel=\"canonical\" href=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta property=\"og:url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta property=\"twitter:url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://gweissman.github.io/icu_ml_ms/\" />\n<meta name=\"citation_pdf_url\" content=\"https://gweissman.github.io/icu_ml_ms/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://gweissman.github.io/icu_ml_ms/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
   },
   "manubot": {
-    "date": "December 12, 2019",
+    "date": "December 13, 2019",
     "authors": [
       {
         "github": "gweissman",
@@ -32,13 +32,15 @@
         "initials": "GEW",
         "orcid": "0000-0001-9588-3819",
         "twitter": "garyweissman",
-        "email": "gary.weissman@uphs.upenn.edu",
+        "email": "gary.weissman@pennmedicine.upenn.edu",
         "affiliations": [
-          "Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104"
+          "Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104",
+          "Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "funders": "Grant XXXXXXXX",
         "affiliation_numbers": [
-          1
+          1,
+          2
         ]
       },
       {
@@ -52,7 +54,7 @@
           "Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "affiliation_numbers": [
-          2
+          3
         ]
       },
       {
@@ -66,7 +68,7 @@
           "Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "affiliation_numbers": [
-          2
+          3
         ]
       },
       {
@@ -75,12 +77,12 @@
         "initials": null,
         "orcid": null,
         "twitter": null,
-        "email": null,
+        "email": "Marzana.Chowdhury@pennmedicine.upenn.edu",
         "affiliations": [
-          "Department of []"
+          "Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "affiliation_numbers": [
-          3
+          1
         ]
       },
       {
@@ -94,7 +96,7 @@
           "Department of []"
         ],
         "affiliation_numbers": [
-          3
+          4
         ]
       },
       {
@@ -103,12 +105,12 @@
         "initials": null,
         "orcid": null,
         "twitter": null,
-        "email": null,
+        "email": "elcooney@upenn.edu",
         "affiliations": [
-          "Department of []"
+          "Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "affiliation_numbers": [
-          3
+          1
         ]
       },
       {
@@ -119,10 +121,10 @@
         "twitter": null,
         "email": null,
         "affiliations": [
-          "Department of []"
+          "Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "affiliation_numbers": [
-          3
+          1
         ]
       },
       {
@@ -133,10 +135,10 @@
         "twitter": null,
         "email": null,
         "affiliations": [
-          "Department of []"
+          "School of Medicine, Wayne State University, Detroit, MI 48201"
         ],
         "affiliation_numbers": [
-          3
+          5
         ]
       },
       {
@@ -147,24 +149,26 @@
         "twitter": null,
         "email": null,
         "affiliations": [
-          "Department of []"
+          "Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "affiliation_numbers": [
-          3
+          1
         ]
       },
       {
         "github": null,
         "name": "Michael E. Detsky",
         "initials": null,
-        "orcid": null,
-        "twitter": null,
-        "email": null,
+        "orcid": "0000-0001-8305-2137",
+        "twitter": "michael_detsky",
+        "email": "michael.detsky@mail.utoronto.ca",
         "affiliations": [
-          "Department of []"
+          "Department of Medicine, Sinai Health System, Toronto, Ontario, Canada",
+          "Interdepartmental Division of Critical Care Medicine and Department of Medicine, University of Toronto, Toronto, Ontario, Canada"
         ],
         "affiliation_numbers": [
-          3
+          6,
+          7
         ]
       },
       {
@@ -178,36 +182,54 @@
           "Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "affiliation_numbers": [
-          2
+          3
         ]
       },
       {
         "github": null,
         "name": "Scott D. Halpern",
-        "initials": null,
-        "orcid": null,
-        "twitter": null,
-        "email": null,
+        "initials": "SDH",
+        "orcid": "0000-0002-3603-4769",
+        "twitter": "ScottHalperMD",
+        "email": "shalpern@upenn.edu",
         "affiliations": [
-          "Department of []"
+          "Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104",
+          "Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104"
         ],
         "affiliation_numbers": [
-          3
+          1,
+          2
         ]
       }
     ],
     "affiliations": [
       {
-        "affiliation": "Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104",
+        "affiliation": "Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104",
         "affiliation_number": 1
       },
       {
-        "affiliation": "Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104",
+        "affiliation": "Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104",
         "affiliation_number": 2
       },
       {
-        "affiliation": "Department of []",
+        "affiliation": "Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104",
         "affiliation_number": 3
+      },
+      {
+        "affiliation": "Department of []",
+        "affiliation_number": 4
+      },
+      {
+        "affiliation": "School of Medicine, Wayne State University, Detroit, MI 48201",
+        "affiliation_number": 5
+      },
+      {
+        "affiliation": "Department of Medicine, Sinai Health System, Toronto, Ontario, Canada",
+        "affiliation_number": 6
+      },
+      {
+        "affiliation": "Interdepartmental Division of Critical Care Medicine and Department of Medicine, University of Toronto, Toronto, Ontario, Canada",
+        "affiliation_number": 7
       }
     ],
     "ci_source": {
@@ -215,15 +237,15 @@
       "repo_slug": "gweissman/icu_ml_ms",
       "repo_owner": "gweissman",
       "repo_name": "icu_ml_ms",
-      "commit": "59d6bae8e44136e33978320d069ad7f8aa0cf22f",
-      "triggering_commit": "59d6bae8e44136e33978320d069ad7f8aa0cf22f",
-      "build_url": "https://travis-ci.com/gweissman/icu_ml_ms/builds/140854564",
-      "job_url": "https://travis-ci.com/gweissman/icu_ml_ms/jobs/266648127"
+      "commit": "6158615b002e809cd29a1d1c76132ee0f65ca6c5",
+      "triggering_commit": "6158615b002e809cd29a1d1c76132ee0f65ca6c5",
+      "build_url": "https://travis-ci.com/gweissman/icu_ml_ms/builds/141004819",
+      "job_url": "https://travis-ci.com/gweissman/icu_ml_ms/jobs/267043614"
     },
     "html_url": "https://gweissman.github.io/icu_ml_ms/",
     "pdf_url": "https://gweissman.github.io/icu_ml_ms/manuscript.pdf",
-    "html_url_versioned": "https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/",
-    "pdf_url_versioned": "https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/manuscript.pdf",
+    "html_url_versioned": "https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/",
+    "pdf_url_versioned": "https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/manuscript.pdf",
     "manuscript_stats": {
       "reference_counts": {
         "doi": 3,

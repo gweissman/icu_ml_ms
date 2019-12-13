@@ -12,7 +12,7 @@ author-meta:
 - Michael E. Detsky
 - Jason H. Moore
 - Scott D. Halpern
-date-meta: '2019-12-12'
+date-meta: '2019-12-13'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
 
-  <meta name="dc.date" content="2019-12-12" />
+  <meta name="dc.date" content="2019-12-13" />
 
-  <meta name="citation_publication_date" content="2019-12-12" />
+  <meta name="citation_publication_date" content="2019-12-13" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -49,7 +49,9 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Gary E. Weissman" />
 
-  <meta name="citation_author_institution" content="Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
+  <meta name="citation_author_institution" content="Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
+
+  <meta name="citation_author_institution" content="Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="0000-0001-9588-3819" />
 
@@ -73,7 +75,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Marzana Chowdhury" />
 
-  <meta name="citation_author_institution" content="Department of []" />
+  <meta name="citation_author_institution" content="Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="None" />
 
@@ -89,7 +91,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Elizabeth L. Cooney" />
 
-  <meta name="citation_author_institution" content="Department of []" />
+  <meta name="citation_author_institution" content="Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="None" />
 
@@ -97,7 +99,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Francisca Oredeko" />
 
-  <meta name="citation_author_institution" content="Department of []" />
+  <meta name="citation_author_institution" content="Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="None" />
 
@@ -105,7 +107,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Trishya Srinivasan" />
 
-  <meta name="citation_author_institution" content="Department of []" />
+  <meta name="citation_author_institution" content="School of Medicine, Wayne State University, Detroit, MI 48201" />
 
   <meta name="citation_author_orcid" content="None" />
 
@@ -113,7 +115,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Stephanie Szymanski" />
 
-  <meta name="citation_author_institution" content="Department of []" />
+  <meta name="citation_author_institution" content="Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="None" />
 
@@ -121,11 +123,13 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Michael E. Detsky" />
 
-  <meta name="citation_author_institution" content="Department of []" />
+  <meta name="citation_author_institution" content="Department of Medicine, Sinai Health System, Toronto, Ontario, Canada" />
 
-  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author_institution" content="Interdepartmental Division of Critical Care Medicine and Department of Medicine, University of Toronto, Toronto, Ontario, Canada" />
 
-  <meta name="twitter:creator" content="@None" />
+  <meta name="citation_author_orcid" content="0000-0001-8305-2137" />
+
+  <meta name="twitter:creator" content="@michael_detsky" />
 
   <meta name="citation_author" content="Jason H. Moore" />
 
@@ -137,11 +141,13 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Scott D. Halpern" />
 
-  <meta name="citation_author_institution" content="Department of []" />
+  <meta name="citation_author_institution" content="Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
 
-  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author_institution" content="Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
 
-  <meta name="twitter:creator" content="@None" />
+  <meta name="citation_author_orcid" content="0000-0002-3603-4769" />
+
+  <meta name="twitter:creator" content="@ScottHalperMD" />
 
   <link rel="canonical" href="https://gweissman.github.io/icu_ml_ms/" />
 
@@ -155,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -186,10 +192,10 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/59d6bae8e44136e33978320d069ad7f8aa0cf22f/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/))
 was automatically generated
-from [gweissman/icu_ml_ms@59d6bae](https://github.com/gweissman/icu_ml_ms/tree/59d6bae8e44136e33978320d069ad7f8aa0cf22f)
-on December 12, 2019.
+from [gweissman/icu_ml_ms@6158615](https://github.com/gweissman/icu_ml_ms/tree/6158615b002e809cd29a1d1c76132ee0f65ca6c5)
+on December 13, 2019.
 </em></small>
 
 ## Authors
@@ -204,7 +210,7 @@ on December 12, 2019.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [garyweissman](https://twitter.com/garyweissman)<br>
   <small>
-     Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
+     Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104; Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
      · Funded by Grant XXXXXXXX
   </small>
 
@@ -232,7 +238,7 @@ on December 12, 2019.
 
 + **Marzana Chowdhury**<br><br>
   <small>
-     Department of []
+     Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **Steven Brooks**<br><br>
@@ -242,27 +248,31 @@ on December 12, 2019.
 
 + **Elizabeth L. Cooney**<br><br>
   <small>
-     Department of []
+     Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **Francisca Oredeko**<br><br>
   <small>
-     Department of []
+     Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **Trishya Srinivasan**<br><br>
   <small>
-     Department of []
+     School of Medicine, Wayne State University, Detroit, MI 48201
   </small>
 
 + **Stephanie Szymanski**<br><br>
   <small>
-     Department of []
+     Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
-+ **Michael E. Detsky**<br><br>
++ **Michael E. Detsky**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8305-2137](https://orcid.org/0000-0001-8305-2137)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [michael_detsky](https://twitter.com/michael_detsky)<br>
   <small>
-     Department of []
+     Department of Medicine, Sinai Health System, Toronto, Ontario, Canada; Interdepartmental Division of Critical Care Medicine and Department of Medicine, University of Toronto, Toronto, Ontario, Canada
   </small>
 
 + **Jason H. Moore**<br>
@@ -276,9 +286,13 @@ on December 12, 2019.
      Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
-+ **Scott D. Halpern**<br><br>
++ **Scott D. Halpern**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3603-4769](https://orcid.org/0000-0002-3603-4769)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [ScottHalperMD](https://twitter.com/ScottHalperMD)<br>
   <small>
-     Department of []
+     Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104; Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 
