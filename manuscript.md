@@ -83,7 +83,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Steven Brooks" />
 
-  <meta name="citation_author_institution" content="Department of []" />
+  <meta name="citation_author_institution" content="Boehringer Ingelheim, Shanghai, China" />
 
   <meta name="citation_author_orcid" content="None" />
 
@@ -111,7 +111,7 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="None" />
 
-  <meta name="twitter:creator" content="@None" />
+  <meta name="twitter:creator" content="@TrishyaS" />
 
   <meta name="citation_author" content="Stephanie Szymanski" />
 
@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/649529037366daf5d33102a323a71c4a718b5b0c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/649529037366daf5d33102a323a71c4a718b5b0c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/649529037366daf5d33102a323a71c4a718b5b0c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,9 +192,9 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/6158615b002e809cd29a1d1c76132ee0f65ca6c5/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/649529037366daf5d33102a323a71c4a718b5b0c/))
 was automatically generated
-from [gweissman/icu_ml_ms@6158615](https://github.com/gweissman/icu_ml_ms/tree/6158615b002e809cd29a1d1c76132ee0f65ca6c5)
+from [gweissman/icu_ml_ms@6495290](https://github.com/gweissman/icu_ml_ms/tree/649529037366daf5d33102a323a71c4a718b5b0c)
 on December 13, 2019.
 </em></small>
 
@@ -241,9 +241,11 @@ on December 13, 2019.
      Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
-+ **Steven Brooks**<br><br>
++ **Steven Brooks**<br>
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [stevegbrooks](https://github.com/stevegbrooks)<br>
   <small>
-     Department of []
+     Boehringer Ingelheim, Shanghai, China
   </small>
 
 + **Elizabeth L. Cooney**<br><br>
@@ -256,7 +258,9 @@ on December 13, 2019.
      Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
-+ **Trishya Srinivasan**<br><br>
++ **Trishya Srinivasan**<br>
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [TrishyaS](https://twitter.com/TrishyaS)<br>
   <small>
      School of Medicine, Wayne State University, Detroit, MI 48201
   </small>
