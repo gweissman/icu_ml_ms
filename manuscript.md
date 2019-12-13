@@ -147,7 +147,7 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-3603-4769" />
 
-  <meta name="twitter:creator" content="@ScottHalperMD" />
+  <meta name="twitter:creator" content="@ScottHalpernMD" />
 
   <link rel="canonical" href="https://gweissman.github.io/icu_ml_ms/" />
 
@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/649529037366daf5d33102a323a71c4a718b5b0c/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/b85798b46f980eb68bfa507237038377b78cae47/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/649529037366daf5d33102a323a71c4a718b5b0c/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/b85798b46f980eb68bfa507237038377b78cae47/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/649529037366daf5d33102a323a71c4a718b5b0c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/b85798b46f980eb68bfa507237038377b78cae47/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,9 +192,9 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/649529037366daf5d33102a323a71c4a718b5b0c/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/b85798b46f980eb68bfa507237038377b78cae47/))
 was automatically generated
-from [gweissman/icu_ml_ms@6495290](https://github.com/gweissman/icu_ml_ms/tree/649529037366daf5d33102a323a71c4a718b5b0c)
+from [gweissman/icu_ml_ms@b85798b](https://github.com/gweissman/icu_ml_ms/tree/b85798b46f980eb68bfa507237038377b78cae47)
 on December 13, 2019.
 </em></small>
 
@@ -294,7 +294,7 @@ on December 13, 2019.
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-3603-4769](https://orcid.org/0000-0002-3603-4769)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [ScottHalperMD](https://twitter.com/ScottHalperMD)<br>
+    [ScottHalpernMD](https://twitter.com/ScottHalpernMD)<br>
   <small>
      Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104; Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   </small>
@@ -310,7 +310,7 @@ on December 13, 2019.
 
 A surge of interest in predictive modeling techniques has paralleled the increasing availability of large data sets and open source software packages that allow nearly out-of-the-box model development.
 The popularity of and potential for data science methods is particularly relevant to the health care setting where decision making under uncertainty with large and varied data inputs are the daily norm.
-However, many such modeling approaches have failed to yield evidence for their use in a real-world clinical setting.
+However, many such modeling approaches have failed to yield evidence for their superiority over traditional statistical methods.[@182D7GluU]
 One important reason for this lack of evidence for clinical prediction models is that large, observational datasets — such as those derived from electronic health records or administrative claims databases — are, despite being large and readily available, still fraught with selection bias and omitted variables, and frequently collected without the interests of the predictive analyst in mind.
 Prospectively collected and clinically rich datasets with relevant, patient-centered outcomes are more rare.
 When such datasets do exist, they tend to be much smaller than large EHR or claims databases because of the higher resources required to develop them.
@@ -323,6 +323,7 @@ The removal of complete cases is relatively costly given the small number of obs
 Finally, all of these decisions could be guided by statistical expertise and clinical insight into the problem at hand, or could be left to purely automated methods — called “automated machine learning” to use the data itself to guide analytic choices around model selection and imputation.
 
 Therefore, using a small clinical dataset, we sought to compare different approaches to split sampling, handling of missing values, and choosing a model type across two long-term outcomes in patients with critical illness.
+
 
 ## Methods
 
