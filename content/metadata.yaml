@@ -11,10 +11,10 @@ author_info:
     initials: GEW
     orcid: 0000-0001-9588-3819
     twitter: garyweissman
-    email: gary.weissman@uphs.upenn.edu
+    email: gary.weissman@pennmedicine.upenn.edu
     affiliations:
       - Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
-      - Pulmonary and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
+      - Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
     funders: Grant XXXXXXXX
   -
     github: trang1618
@@ -40,7 +40,7 @@ author_info:
     initials:
     orcid:
     twitter:
-    email:
+    email: Marzana.Chowdhury@pennmedicine.upenn.edu
     affiliations:
       - Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   -
@@ -58,7 +58,7 @@ author_info:
     initials:
     orcid:
     twitter:
-    email:
+    email: elcooney@upenn.edu
     affiliations:
       - Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   -
@@ -78,7 +78,7 @@ author_info:
     twitter:
     email:
     affiliations:
-      - Department of []
+      - School of Medicine, Wayne State University, Detroit, MI 48201
   -
     github:
     name: Stephanie Szymanski
@@ -92,11 +92,12 @@ author_info:
     github:
     name: Michael E. Detsky
     initials:
-    orcid:
-    twitter:
-    email:
+    orcid: 0000-0001-8305-2137
+    twitter: michael_detsky
+    email: michael.detsky@mail.utoronto.ca
     affiliations:
-      - Department of []
+      -     Department of Medicine, Sinai Health System, Toronto, Ontario, Canada
+      -     Interdepartmental Division of Critical Care Medicine and Department of Medicine, University of Toronto, Toronto, Ontario, Canada
   -
     github: EpistasisLab
     name: Jason H. Moore
@@ -109,9 +110,10 @@ author_info:
   -
     github:
     name: Scott D. Halpern
-    initials:
-    orcid:
-    twitter:
-    email:
+    initials: SDH
+    orcid: 0000-0002-3603-4769
+    twitter: ScottHalperMD
+    email: shalpern@upenn.edu
     affiliations:
       - Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
+      - Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
