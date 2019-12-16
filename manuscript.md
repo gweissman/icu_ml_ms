@@ -12,7 +12,7 @@ author-meta:
 - Michael E. Detsky
 - Jason H. Moore
 - Scott D. Halpern
-date-meta: '2019-12-13'
+date-meta: '2019-12-16'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
 
-  <meta name="dc.date" content="2019-12-13" />
+  <meta name="dc.date" content="2019-12-16" />
 
-  <meta name="citation_publication_date" content="2019-12-13" />
+  <meta name="citation_publication_date" content="2019-12-16" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/b85798b46f980eb68bfa507237038377b78cae47/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/b85798b46f980eb68bfa507237038377b78cae47/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/b85798b46f980eb68bfa507237038377b78cae47/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,10 +192,10 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/b85798b46f980eb68bfa507237038377b78cae47/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/))
 was automatically generated
-from [gweissman/icu_ml_ms@b85798b](https://github.com/gweissman/icu_ml_ms/tree/b85798b46f980eb68bfa507237038377b78cae47)
-on December 13, 2019.
+from [gweissman/icu_ml_ms@39ac88e](https://github.com/gweissman/icu_ml_ms/tree/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4)
+on December 16, 2019.
 </em></small>
 
 ## Authors
@@ -304,6 +304,11 @@ on December 13, 2019.
 ## Abstract {.page_break_before}
 
 
+<!---
+300 word limit for PLoS Comp Bio
+--->
+
+Traditional statistical modeling approaches are usually compared to machine learning methods using large, retrospective datasets. Their relative performance across manual and automated methods, how approaches to missing data, use of repeated measures across time, and split-sampling approaches, when applied to small, prospectively collected datasets is unknown. We sought to address these questions using a small ($N=Z$), prospectively collected data from patients admitted to an intensive care unit. Therefore, we compared multivariable logistic regression, penalized logistic regression, XGBoost, TPOT-1, TPOT-2, and Feat approaches to model tuning and selection. Each model received three different datasets with varying strategies for handling missing data, including prior imputation, inclusion of missing fields, and complete cases analysis. Each model variably received data from the first and second day of inlusion in the cohort. Each model also received 80/20 and 50/50 split samples or training and testing. We found that...
 
 
 ## Introduction
@@ -311,18 +316,21 @@ on December 13, 2019.
 A surge of interest in predictive modeling techniques has paralleled the increasing availability of large data sets and open source software packages that allow nearly out-of-the-box model development.
 The popularity of and potential for data science methods is particularly relevant to the health care setting where decision making under uncertainty with large and varied data inputs are the daily norm.
 However, many such modeling approaches have failed to yield evidence for their superiority over traditional statistical methods.[@182D7GluU]
-One important reason for this lack of evidence for clinical prediction models is that large, observational datasets — such as those derived from electronic health records or administrative claims databases — are, despite being large and readily available, still fraught with selection bias and omitted variables, and frequently collected without the interests of the predictive analyst in mind.
-Prospectively collected and clinically rich datasets with relevant, patient-centered outcomes are more rare.
-When such datasets do exist, they tend to be much smaller than large EHR or claims databases because of the higher resources required to develop them.
+Comparisons between statistical and machine learning methods have primarily focused on large datasets, or "big data."
+But these large datasets are usually observational and suffer from numerous biases in the data collection process that limit their use.
+Prospectively collected, clinically rich datasets with relevant, patient-centered outcomes are more rare.
+With less noise in the cohort selection and training labels, these prospective cohorts, albeit typically smaller due to the expense of constructing them, offer an opportunity to better isolate the effects of different modeling approaches.
 
-Therefore, we turn our attention to these small and clinically relevant datasets: how well do standard practices for “big data” methods in predictive modeling hold up on these smaller clinical datasets? For example, split-sampling is a common approach to internal validation.
+However, small prospectively collected datasets present additional unique and unexplored questions.
+First, how much data are wasted in using a split-sampling approach for internal validation?
 With an extremely large dataset with millions of observations, the difference between a testing sample of 20% or 25% may not matter.
 But if the data set has only a few hundred observations, a careful consideration of sufficient sample size in the training set to fit a model is balanced against the need for sufficient sample size in the test set to construct a clinically meaningful confidence interval.
-Similarly, the approach to missing data --- common in clinical datasets --- for such small datasets used for prediction is unknown.
-The removal of complete cases is relatively costly given the small number of observations.
-Finally, all of these decisions could be guided by statistical expertise and clinical insight into the problem at hand, or could be left to purely automated methods — called “automated machine learning” to use the data itself to guide analytic choices around model selection and imputation.
+Second, the tradeoffs in approaches to missing data --- common in clinical datasets --- for such small datasets used for prediction is unknown.
+The removal of complete cases is relatively costly given the small number of observations while imputation may introduce or reinforce bias.
+Third, with a small dataset, does incorporating repeated measures across a patient's trajectory improve predictive performance?
+Finally, all of these decisions could be guided by statistical expertise and clinical insight into the problem at hand, or could be left to purely automated methods --— called ``automated machine learning'' to use the data itself to guide analytic choices around model selection and imputation.
 
-Therefore, using a small clinical dataset, we sought to compare different approaches to split sampling, handling of missing values, and choosing a model type across two long-term outcomes in patients with critical illness.
+Therefore, using a small, prospectively collected clinical dataset with six-month outcomes, we sought to compare different approaches to split sampling, handling of missing values, use of repeated measures across time, and model selection across two long-term outcomes in patients with critical illness.
 
 
 ## Methods
