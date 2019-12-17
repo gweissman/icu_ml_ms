@@ -12,7 +12,7 @@ author-meta:
 - Michael E. Detsky
 - Jason H. Moore
 - Scott D. Halpern
-date-meta: '2019-12-16'
+date-meta: '2019-12-17'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
 
-  <meta name="dc.date" content="2019-12-16" />
+  <meta name="dc.date" content="2019-12-17" />
 
-  <meta name="citation_publication_date" content="2019-12-16" />
+  <meta name="citation_publication_date" content="2019-12-17" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/f15790db3b0b694127a4c17e6820dd95e37e17ac/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/f15790db3b0b694127a4c17e6820dd95e37e17ac/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/f15790db3b0b694127a4c17e6820dd95e37e17ac/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,10 +192,10 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/f15790db3b0b694127a4c17e6820dd95e37e17ac/))
 was automatically generated
-from [gweissman/icu_ml_ms@39ac88e](https://github.com/gweissman/icu_ml_ms/tree/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4)
-on December 16, 2019.
+from [gweissman/icu_ml_ms@f15790d](https://github.com/gweissman/icu_ml_ms/tree/f15790db3b0b694127a4c17e6820dd95e37e17ac)
+on December 17, 2019.
 </em></small>
 
 ## Authors
@@ -308,7 +308,13 @@ on December 16, 2019.
 300 word limit for PLoS Comp Bio
 --->
 
-Traditional statistical modeling approaches are usually compared to machine learning methods using large, retrospective datasets. Their relative performance across manual and automated methods, how approaches to missing data, use of repeated measures across time, and split-sampling approaches, when applied to small, prospectively collected datasets is unknown. We sought to address these questions using a small ($N=Z$), prospectively collected data from patients admitted to an intensive care unit. Therefore, we compared multivariable logistic regression, penalized logistic regression, XGBoost, TPOT-1, TPOT-2, and Feat approaches to model tuning and selection. Each model received three different datasets with varying strategies for handling missing data, including prior imputation, inclusion of missing fields, and complete cases analysis. Each model variably received data from the first and second day of inlusion in the cohort. Each model also received 80/20 and 50/50 split samples or training and testing. We found that...
+Traditional statistical modeling approaches are usually compared to machine learning methods using large, retrospective datasets. 
+Their relative performance across manual and automated methods, how approaches to missing data, use of repeated measures across time, and split-sampling approaches, when applied to small, prospectively collected datasets is unknown.
+We sought to address these questions using a small ($N=Z$), prospectively collected data from patients admitted to an intensive care unit.
+Therefore, we compared multivariable logistic regression, penalized logistic regression, XGBoost, TPOT-1, TPOT-2, and Feat approaches to model tuning and selection. Each model received three different datasets with varying strategies for handling missing data, including prior imputation, inclusion of missing fields, and complete cases analysis.
+Each model variably received data from the first and second day of inlusion in the cohort.
+Each model also received 80/20 and 50/50 split samples or training and testing.
+We found that...
 
 
 ## Introduction
@@ -335,7 +341,7 @@ Therefore, using a small, prospectively collected clinical dataset with six-mont
 
 ## Methods
 
-We compared the predictive performance of manual versus automated modeling strategies across different approaches for split-sampling, handling of missing data, and the use of temporal data trends.
+We compared the predictive performance of manual versus automated modeling strategies across different approaches for split-sampling, handling of missing data, and the use of repeated measures over time.
 Individual investigators were responsible for implementing the manual (GW), automated (TL), and automated with temporal features (WL) modeling approaches in a competition-style format.
 Only one investigator (SB) had access to the outcomes in the testing dataset for evaluation until after all models had been trained.
 
@@ -344,7 +350,7 @@ Only one investigator (SB) had access to the outcomes in the testing dataset for
 We used a dataset derived from a prospective cohort study that was conducted from 2013 to 2014 among patients who spent at least three days in an intensive care unit (ICU) [@OcPf8cNA].
 Among 303 patients in the original cohort, 301 (99.3%) had sufficient identifiers to be linked to their original chart in the electronic health record (EHR) to query detailed clinical data.
 Interviews with patients and their surrogate decision makers were used to determine their quality of life prior to ICU admission.
-Mortality status at six months after discharge was determined with review of the EHR and follow-up phone calls with patients and surrogates.
+Mortality status at six months after discharge was determined by review of the EHR and follow-up phone calls with patients and surrogates.
 
 ### Outcomes
 
@@ -357,7 +363,7 @@ In a secondary analysis, each modeling approach was used to predict the patient'
 
 We used the scikit-learn software package in Python to train a traditional multivariable logistic regression model, a penalized regression model (L1 and L2 penalties), and an XGBoost classification model [@1iuWTU7i].
 Because of the small sample sizes and relatively large number of features, each model was trained using the first 20 principle components of each training dataset.
-In all cases, the same decomposition was used for the training and testing datasets.
+In all cases, the decomposition identified in the training dataset was also used for the testing dataset.
 Tuning parameters for the penalized regression and the XGBoost model were determined by grid search with 5-fold cross validation.
 
 #### Automated Machine Learning
@@ -370,23 +376,24 @@ To test the performance of an automated machine learning pipeline that could ...
 
 ### Missing Data
 
-A manual chart review of the EHR confirmed that none of the missing data elements were due to an error in the dataset or database query, but were rather due to data not entered into the EHR.
-We employed three different approaches to handling missing data to understand their effects on model performance in small clinical datasets and to see how they were related to performance using different modeling approaches.
+A manual chart review of the EHR confirmed that none of the missing data elements were due to an error in the dataset or in the database query, but rather were due to data not entered into the EHR.
+We employed three different approaches to handling missing data to understand their effects on model performance in small clinical datasets and to test how they were related to performance using different modeling approaches.
 
 First, we left all data as missing and allowed each modeling approach to deal with the data differently.
 For the manually trained models, missingness indicator variables were generated for SBP, pH, albumin, and FiO2, considering that their absence would be informative based on clinical experience caring for patients in the ICU.
-The remaining missing data were imputed using a k-nearest neighbors procedure. For the TPOT models, median imputation was used for all missing variables. 
-For the Feat models, TODO(Bill).
+The remaining missing data were imputed using a k-nearest neighbors procedure. For the TPOT models, median imputation was used for all missing variables.
+For the Feat models, ... TODO(Bill).
 
 Second, we pre-imputed all missing data so that all modeling approaches used the same imputed dataset.
-Imputation in this case was performed with the mice package in R using Bayesian linear regression.[@M2iYoflW]
+Imputation in this case was performed with the `mice` package in R using Bayesian linear regression.[@M2iYoflW]
 
-Third, we performed a complete case analysis by entirely excluding the 8 most missing variables, then removing observations that had any missingness among the remaining variables.
+Third, we performed a complete case analysis by entirely excluding the 8 most missing variables then removing observations that had any missingness among the remaining variables.
 
 ### Split Sampling
 
 The data were divided into training and testing samples using two different strategies.
-The first strategy used 80% and 20% splits for training and testing, respectively. The second used 50% and 50% splits.
+The first strategy used 80% and 20% splits for training and testing, respectively.
+The second used 50% and 50% splits.
 Split sampling for both strategies was performed with balanced stratification on ICU type (medical and non-medical) and by quartile of the APACHE score.
 The observations were sampled such that the 20% test set is a subset of the 50% test set.
 
@@ -397,7 +404,9 @@ Therefore, we aggregated available laboratory values and vital signs from the fi
 
 However, the trajectory of a patient's illness is sometimes not identifiable within the first 24 hours. It is unknown to what degree such temporal data, if at all, improves predictions of long-term outcomes. Therefore, we included an additional set of models with data from both the first and second 24-hour periods of the ICU admission.
 
-For the manually created models, the difference between the two time periods was calculated for SBP, WBCs, FiO2, and UOP. These variables were chosen based on clinical experience as potentially relevant for determining a patient's trajectory. For TPOT and Feat, other features were ... TODO(Trang), TODO(Bill)
+For the manually created models, the difference between the two time periods was calculated for SBP, WBCs, FiO2, and UOP.
+These variables were chosen based on clinical experience as potentially relevant for determining a patient's trajectory.
+For TPOT and Feat, other features were ... TODO(Trang), TODO(Bill)
 
 ### Model Performance
 
@@ -422,6 +431,7 @@ Differences in performance between models were calculated by estimating the boos
 ### Computational resources
 
 We calculated the time it took to train all models of each type using desktop hardware and utilizing parallel processing when available.
+
 
 ## Results
 
