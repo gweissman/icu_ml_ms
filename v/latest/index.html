@@ -16,7 +16,7 @@
   <meta name="author" content="Michael E. Detsky" />
   <meta name="author" content="Jason H. Moore" />
   <meta name="author" content="Scott D. Halpern" />
-  <meta name="dcterms.date" content="2019-12-16" />
+  <meta name="dcterms.date" content="2019-12-17" />
   <meta name="keywords" content="machine learning, icu" />
   <title>Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit</title>
   <style>
@@ -37,8 +37,8 @@
   <meta name="citation_title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
   <meta property="og:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
-  <meta name="dc.date" content="2019-12-16" />
-  <meta name="citation_publication_date" content="2019-12-16" />
+  <meta name="dc.date" content="2019-12-17" />
+  <meta name="citation_publication_date" content="2019-12-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -101,9 +101,9 @@
   <meta property="twitter:url" content="https://gweissman.github.io/icu_ml_ms/" />
   <meta name="citation_fulltext_html_url" content="https://gweissman.github.io/icu_ml_ms/" />
   <meta name="citation_pdf_url" content="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/" />
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/f15790db3b0b694127a4c17e6820dd95e37e17ac/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/f15790db3b0b694127a4c17e6820dd95e37e17ac/" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/f15790db3b0b694127a4c17e6820dd95e37e17ac/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -114,7 +114,7 @@
 <header id="title-block-header">
 <h1 class="title">Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://gweissman.github.io/icu_ml_ms/v/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4/">permalink</a>) was automatically generated from <a href="https://github.com/gweissman/icu_ml_ms/tree/39ac88ebe3e2c0f66c3182e0c7e318e6edee76f4">gweissman/icu_ml_ms@39ac88e</a> on December 16, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://gweissman.github.io/icu_ml_ms/v/f15790db3b0b694127a4c17e6820dd95e37e17ac/">permalink</a>) was automatically generated from <a href="https://github.com/gweissman/icu_ml_ms/tree/f15790db3b0b694127a4c17e6820dd95e37e17ac">gweissman/icu_ml_ms@f15790d</a> on December 17, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Gary E. Weissman</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/0000-0001-9588-3819">0000-0001-9588-3819</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/gweissman">gweissman</a> · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" /> <a href="https://twitter.com/garyweissman">garyweissman</a><br> <small> Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104; Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104 · Funded by Grant XXXXXXXX </small></p></li>
@@ -140,23 +140,23 @@
 <p>However, small prospectively collected datasets present additional unique and unexplored questions. First, how much data are wasted in using a split-sampling approach for internal validation? With an extremely large dataset with millions of observations, the difference between a testing sample of 20% or 25% may not matter. But if the data set has only a few hundred observations, a careful consideration of sufficient sample size in the training set to fit a model is balanced against the need for sufficient sample size in the test set to construct a clinically meaningful confidence interval. Second, the tradeoffs in approaches to missing data — common in clinical datasets — for such small datasets used for prediction is unknown. The removal of complete cases is relatively costly given the small number of observations while imputation may introduce or reinforce bias. Third, with a small dataset, does incorporating repeated measures across a patient’s trajectory improve predictive performance? Finally, all of these decisions could be guided by statistical expertise and clinical insight into the problem at hand, or could be left to purely automated methods –— called ``automated machine learning’’ to use the data itself to guide analytic choices around model selection and imputation.</p>
 <p>Therefore, using a small, prospectively collected clinical dataset with six-month outcomes, we sought to compare different approaches to split sampling, handling of missing values, use of repeated measures across time, and model selection across two long-term outcomes in patients with critical illness.</p>
 <h2 id="methods">Methods</h2>
-<p>We compared the predictive performance of manual versus automated modeling strategies across different approaches for split-sampling, handling of missing data, and the use of temporal data trends. Individual investigators were responsible for implementing the manual (GW), automated (TL), and automated with temporal features (WL) modeling approaches in a competition-style format. Only one investigator (SB) had access to the outcomes in the testing dataset for evaluation until after all models had been trained.</p>
+<p>We compared the predictive performance of manual versus automated modeling strategies across different approaches for split-sampling, handling of missing data, and the use of repeated measures over time. Individual investigators were responsible for implementing the manual (GW), automated (TL), and automated with temporal features (WL) modeling approaches in a competition-style format. Only one investigator (SB) had access to the outcomes in the testing dataset for evaluation until after all models had been trained.</p>
 <h3 id="population-and-data-collection">Population and Data Collection</h3>
-<p>We used a dataset derived from a prospective cohort study that was conducted from 2013 to 2014 among patients who spent at least three days in an intensive care unit (ICU).<span class="citation" data-cites="OcPf8cNA"><sup><a href="#ref-OcPf8cNA" role="doc-biblioref">2</a></sup></span> Among 303 patients in the original cohort, 301 (99.3%) had sufficient identifiers to be linked to their original chart in the electronic health record (EHR) to query detailed clinical data. Interviews with patients and their surrogate decision makers were used to determine their quality of life prior to ICU admission. Mortality status at six months after discharge was determined with review of the EHR and follow-up phone calls with patients and surrogates.</p>
+<p>We used a dataset derived from a prospective cohort study that was conducted from 2013 to 2014 among patients who spent at least three days in an intensive care unit (ICU).<span class="citation" data-cites="OcPf8cNA"><sup><a href="#ref-OcPf8cNA" role="doc-biblioref">2</a></sup></span> Among 303 patients in the original cohort, 301 (99.3%) had sufficient identifiers to be linked to their original chart in the electronic health record (EHR) to query detailed clinical data. Interviews with patients and their surrogate decision makers were used to determine their quality of life prior to ICU admission. Mortality status at six months after discharge was determined by review of the EHR and follow-up phone calls with patients and surrogates.</p>
 <h3 id="outcomes">Outcomes</h3>
 <p>For the primary analysis, each modeling approach was used to predict mortality after six months from hospital discharge. In a secondary analysis, each modeling approach was used to predict the patient’s quality of life, defined as a binary variable of whether the quality of life was at least as good as it was prior to the ICU admission.</p>
 <h3 id="model-types">Model Types</h3>
 <h4 id="manual-machine-learning">Manual machine learning</h4>
-<p>We used the scikit-learn software package in Python to train a traditional multivariable logistic regression model, a penalized regression model (L1 and L2 penalties), and an XGBoost classification model.<span class="citation" data-cites="1iuWTU7i"><sup><a href="#ref-1iuWTU7i" role="doc-biblioref">3</a></sup></span> Because of the small sample sizes and relatively large number of features, each model was trained using the first 20 principle components of each training dataset. In all cases, the same decomposition was used for the training and testing datasets. Tuning parameters for the penalized regression and the XGBoost model were determined by grid search with 5-fold cross validation.</p>
+<p>We used the scikit-learn software package in Python to train a traditional multivariable logistic regression model, a penalized regression model (L1 and L2 penalties), and an XGBoost classification model.<span class="citation" data-cites="1iuWTU7i"><sup><a href="#ref-1iuWTU7i" role="doc-biblioref">3</a></sup></span> Because of the small sample sizes and relatively large number of features, each model was trained using the first 20 principle components of each training dataset. In all cases, the decomposition identified in the training dataset was also used for the testing dataset. Tuning parameters for the penalized regression and the XGBoost model were determined by grid search with 5-fold cross validation.</p>
 <h4 id="automated-machine-learning">Automated Machine Learning</h4>
 <p>To test the performance of models developed through an automated machine learning approach, we used the Tree-based Pipeline Optimization Tool (TPOT). TODO(Trang)</p>
 <h4 id="feat">Feat</h4>
 <p>To test the performance of an automated machine learning pipeline that could … TODO(Bill)</p>
 <h3 id="missing-data">Missing Data</h3>
-<p>A manual chart review of the EHR confirmed that none of the missing data elements were due to an error in the dataset or database query, but were rather due to data not entered into the EHR. We employed three different approaches to handling missing data to understand their effects on model performance in small clinical datasets and to see how they were related to performance using different modeling approaches.</p>
-<p>First, we left all data as missing and allowed each modeling approach to deal with the data differently. For the manually trained models, missingness indicator variables were generated for SBP, pH, albumin, and FiO2, considering that their absence would be informative based on clinical experience caring for patients in the ICU. The remaining missing data were imputed using a k-nearest neighbors procedure. For the TPOT models, median imputation was used for all missing variables. For the Feat models, TODO(Bill).</p>
-<p>Second, we pre-imputed all missing data so that all modeling approaches used the same imputed dataset. Imputation in this case was performed with the mice package in R using Bayesian linear regression.<span class="citation" data-cites="M2iYoflW"><sup><a href="#ref-M2iYoflW" role="doc-biblioref">4</a></sup></span></p>
-<p>Third, we performed a complete case analysis by entirely excluding the 8 most missing variables, then removing observations that had any missingness among the remaining variables.</p>
+<p>A manual chart review of the EHR confirmed that none of the missing data elements were due to an error in the dataset or in the database query, but rather were due to data not entered into the EHR. We employed three different approaches to handling missing data to understand their effects on model performance in small clinical datasets and to test how they were related to performance using different modeling approaches.</p>
+<p>First, we left all data as missing and allowed each modeling approach to deal with the data differently. For the manually trained models, missingness indicator variables were generated for SBP, pH, albumin, and FiO2, considering that their absence would be informative based on clinical experience caring for patients in the ICU. The remaining missing data were imputed using a k-nearest neighbors procedure. For the TPOT models, median imputation was used for all missing variables. For the Feat models, … TODO(Bill).</p>
+<p>Second, we pre-imputed all missing data so that all modeling approaches used the same imputed dataset. Imputation in this case was performed with the <code>mice</code> package in R using Bayesian linear regression.<span class="citation" data-cites="M2iYoflW"><sup><a href="#ref-M2iYoflW" role="doc-biblioref">4</a></sup></span></p>
+<p>Third, we performed a complete case analysis by entirely excluding the 8 most missing variables then removing observations that had any missingness among the remaining variables.</p>
 <h3 id="split-sampling">Split Sampling</h3>
 <p>The data were divided into training and testing samples using two different strategies. The first strategy used 80% and 20% splits for training and testing, respectively. The second used 50% and 50% splits. Split sampling for both strategies was performed with balanced stratification on ICU type (medical and non-medical) and by quartile of the APACHE score. The observations were sampled such that the 20% test set is a subset of the 50% test set.</p>
 <h3 id="days-of-data">Days of data</h3>
@@ -242,7 +242,7 @@ TODO(Trang): I couldn't tell from the notebook how long the TPOT runs took, plea
 <p>2. Detsky ME, Harhay MO, Bayard DF, et al. Discriminative Accuracy of Physician and Nurse Predictions for Survival and Functional Outcomes 6 Months After an ICU Admission. <em>JAMA</em>. 2017;317(21):2187. doi:<a href="https://doi.org/10.1001/jama.2017.4078">10.1001/jama.2017.4078</a></p>
 </div>
 <div id="ref-1iuWTU7i">
-<p>3. Pedregosa F, Varoquaux G, Gramfort A, et al. Scikit-learn: Machine Learning in Python. <em>Journal of Machine Learning Research</em>. October 2011. <a href="https://hal.inria.fr/hal-00650905">https://hal.inria.fr/hal-00650905</a>. Accessed December 16, 2019.</p>
+<p>3. Pedregosa F, Varoquaux G, Gramfort A, et al. Scikit-learn: Machine Learning in Python. <em>Journal of Machine Learning Research</em>. October 2011. <a href="https://hal.inria.fr/hal-00650905">https://hal.inria.fr/hal-00650905</a>. Accessed December 17, 2019.</p>
 </div>
 <div id="ref-M2iYoflW">
 <p>4. Buuren S van, Groothuis-Oudshoorn K. mice: Multivariate Imputation by Chained Equations inR. <em>J Stat Soft</em>. 2011;45(3). doi:<a href="https://doi.org/10.18637/jss.v045.i03">10.18637/jss.v045.i03</a></p>
