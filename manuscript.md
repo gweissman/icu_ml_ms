@@ -12,7 +12,7 @@ author-meta:
 - Michael E. Detsky
 - Jason H. Moore
 - Scott D. Halpern
-date-meta: '2019-12-17'
+date-meta: '2019-12-19'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
 
-  <meta name="dc.date" content="2019-12-17" />
+  <meta name="dc.date" content="2019-12-19" />
 
-  <meta name="citation_publication_date" content="2019-12-17" />
+  <meta name="citation_publication_date" content="2019-12-19" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/e18fc0f2e5d110c31a3936fffeb8f59c85e055de/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/bd81d9f33dfa712f3ac70336182775a34c1af161/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/e18fc0f2e5d110c31a3936fffeb8f59c85e055de/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/bd81d9f33dfa712f3ac70336182775a34c1af161/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/e18fc0f2e5d110c31a3936fffeb8f59c85e055de/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/bd81d9f33dfa712f3ac70336182775a34c1af161/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,10 +192,10 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/e18fc0f2e5d110c31a3936fffeb8f59c85e055de/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/bd81d9f33dfa712f3ac70336182775a34c1af161/))
 was automatically generated
-from [gweissman/icu_ml_ms@e18fc0f](https://github.com/gweissman/icu_ml_ms/tree/e18fc0f2e5d110c31a3936fffeb8f59c85e055de)
-on December 17, 2019.
+from [gweissman/icu_ml_ms@bd81d9f](https://github.com/gweissman/icu_ml_ms/tree/bd81d9f33dfa712f3ac70336182775a34c1af161)
+on December 19, 2019.
 </em></small>
 
 ## Authors
@@ -321,20 +321,19 @@ We found that...
 
 A surge of interest in predictive modeling techniques has paralleled the increasing availability of large data sets and open source software packages that allow nearly out-of-the-box model development.
 The popularity of and potential for data science methods is particularly relevant to the health care setting where decision making under uncertainty with large and varied data inputs are the daily norm.
-However, many such modeling approaches have failed to yield evidence for their superiority over traditional statistical methods.[@182D7GluU]
-Comparisons between statistical and machine learning methods have primarily focused on large datasets, or "big data."
-But these large datasets are usually observational and suffer from numerous biases in the data collection process that limit their use.
-Prospectively collected, clinically rich datasets with relevant, patient-centered outcomes are more rare.
+However, many advanced modeling approaches have failed to yield evidence for their superiority over traditional statistical methods.[@182D7GluU; @OD87V9kB]
+Comparisons between statistical and machine learning methods have focused on relatively large datasets, or "big data."
+However, prospectively collected, clinically rich datasets of cohorts with relevant, patient-centered outcomes are more rare.
 With less noise in the cohort selection and training labels, these prospective cohorts, albeit typically smaller due to the expense of constructing them, offer an opportunity to better isolate the effects of different modeling approaches.
 
 However, small prospectively collected datasets present additional unique and unexplored questions.
-First, how much data are wasted in using a split-sampling approach for internal validation?
+First, how much data are wasted in using a split-sampling approach for internal validation?[@12qVIypVo]
 With an extremely large dataset with millions of observations, the difference between a testing sample of 20% or 25% may not matter.
 But if the data set has only a few hundred observations, a careful consideration of sufficient sample size in the training set to fit a model is balanced against the need for sufficient sample size in the test set to construct a clinically meaningful confidence interval.
-Second, the tradeoffs in approaches to missing data --- common in clinical datasets --- for such small datasets used for prediction is unknown.
+Second, the tradeoffs in approaches to missing data --- common in clinical datasets --- for such small datasets used for prediction is unknown.[@vEqgIzON; @L28K8uC0]
 The removal of complete cases is relatively costly given the small number of observations while imputation may introduce or reinforce bias.
-Third, with a small dataset, does incorporating repeated measures across a patient's trajectory improve predictive performance?
-Finally, all of these decisions could be guided by statistical expertise and clinical insight into the problem at hand, or could be left to purely automated methods --— called ``automated machine learning'' to use the data itself to guide analytic choices around model selection and imputation.
+Third, with a small dataset, does incorporating repeated measures across a patient's trajectory improve predictive performance?[@pDgXOqF0]
+Finally, all of these decisions could be guided by statistical expertise and clinical insight into the problem at hand, or could be left to purely automated methods -— called ``automated machine learning'' to use the data itself to guide analytic choices around model selection and imputation.[@12tC5JTV6]
 
 Therefore, using a small, prospectively collected clinical dataset with six-month outcomes, we sought to compare different approaches to split sampling, handling of missing values, use of repeated measures across time, and model selection across two long-term outcomes in patients with critical illness.
 
