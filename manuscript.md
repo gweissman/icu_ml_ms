@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,9 +192,9 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/))
 was automatically generated
-from [gweissman/icu_ml_ms@163f8ff](https://github.com/gweissman/icu_ml_ms/tree/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90)
+from [gweissman/icu_ml_ms@9d6f8a9](https://github.com/gweissman/icu_ml_ms/tree/9d6f8a97ad1342178f4c80396606f2bd52ddf53d)
 on January 8, 2020.
 </em></small>
 
@@ -450,17 +450,16 @@ The (Table 1).
 
 | Model type | Time (seconds) | Time (hours) | Relative Time |
 |----|-------|------|-----|
-| MLR | 2.00 | 0.001 | x1 |
+| MLR | 2.00 | <0.001 | x1 |
 | PLR | 5.16 | 0.001  | x2.6 |
+| XGBoost | 5,439.6 | 1.5 | x2,720 |
 | Feat | 95,244.82 | 26.5 | x47,613 |
-| TPOT - Standard | | |
-| TPOT - Template | | |
+| TPOT - Template | 184,444.6 | 51.2 | x92,222 |
+| TPOT - Standard | 258,331.3 | 71.8 | x129,166 |
 
-<!---
-TODO(Trang): I couldn't tell from the notebook how long the TPOT runs took, please insert in Table 1. Thanks!
---->
 
 Table: Time required to train all models of each type.
+
 
 ## Discussion
 
