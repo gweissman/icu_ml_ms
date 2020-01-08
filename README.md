@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/gweissman/icu_ml_ms/tree/gh-pages) branch hosts the contents of this directory at https://gweissman.github.io/icu_ml_ms/.
-The permalink for this webpage version is https://gweissman.github.io/icu_ml_ms/v/bd81d9f33dfa712f3ac70336182775a34c1af161/.
+The permalink for this webpage version is https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://gweissman.github.io/icu_ml_ms/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`bd81d9f33dfa712f3ac70336182775a34c1af161`](https://github.com/gweissman/icu_ml_ms/commit/bd81d9f33dfa712f3ac70336182775a34c1af161).
+[`31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0`](https://github.com/gweissman/icu_ml_ms/commit/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0).
