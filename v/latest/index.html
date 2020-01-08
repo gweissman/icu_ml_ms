@@ -101,9 +101,9 @@
   <meta property="twitter:url" content="https://gweissman.github.io/icu_ml_ms/" />
   <meta name="citation_fulltext_html_url" content="https://gweissman.github.io/icu_ml_ms/" />
   <meta name="citation_pdf_url" content="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/" />
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/" />
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -114,7 +114,7 @@
 <header id="title-block-header">
 <h1 class="title">Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/">permalink</a>) was automatically generated from <a href="https://github.com/gweissman/icu_ml_ms/tree/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90">gweissman/icu_ml_ms@163f8ff</a> on January 8, 2020. </em></small></p>
+<p><small><em> This manuscript (<a href="https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/">permalink</a>) was automatically generated from <a href="https://github.com/gweissman/icu_ml_ms/tree/9d6f8a97ad1342178f4c80396606f2bd52ddf53d">gweissman/icu_ml_ms@9d6f8a9</a> on January 8, 2020. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Gary E. Weissman</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/0000-0001-9588-3819">0000-0001-9588-3819</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/gweissman">gweissman</a> · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" /> <a href="https://twitter.com/garyweissman">garyweissman</a><br> <small> Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104; Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104 · Funded by Grant XXXXXXXX </small></p></li>
@@ -188,6 +188,7 @@ BS_s = 1 - \frac{\frac{1}{N}\sum_i^N (y_i - p_i)^2}{\frac{1}{N}\sum_i^N (y_i - \
 <h3 id="computational-resources-1">Computational resources</h3>
 <p>The (Table 1).</p>
 <table>
+<caption>Time required to train all models of each type.</caption>
 <thead>
 <tr class="header">
 <th>Model type</th>
@@ -200,7 +201,7 @@ BS_s = 1 - \frac{\frac{1}{N}\sum_i^N (y_i - p_i)^2}{\frac{1}{N}\sum_i^N (y_i - \
 <tr class="odd">
 <td>MLR</td>
 <td>2.00</td>
-<td>0.001</td>
+<td>&lt;0.001</td>
 <td>x1</td>
 </tr>
 <tr class="even">
@@ -210,29 +211,31 @@ BS_s = 1 - \frac{\frac{1}{N}\sum_i^N (y_i - p_i)^2}{\frac{1}{N}\sum_i^N (y_i - \
 <td>x2.6</td>
 </tr>
 <tr class="odd">
+<td>XGBoost</td>
+<td>5,439.6</td>
+<td>1.5</td>
+<td>x2,720</td>
+</tr>
+<tr class="even">
 <td>Feat</td>
 <td>95,244.82</td>
 <td>26.5</td>
 <td>x47,613</td>
 </tr>
-<tr class="even">
-<td>TPOT - Standard</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 <tr class="odd">
 <td>TPOT - Template</td>
-<td></td>
-<td></td>
-<td></td>
+<td>184,444.6</td>
+<td>51.2</td>
+<td>x92,222</td>
+</tr>
+<tr class="even">
+<td>TPOT - Standard</td>
+<td>258,331.3</td>
+<td>71.8</td>
+<td>x129,166</td>
 </tr>
 </tbody>
 </table>
-<!---
-TODO(Trang): I couldn't tell from the notebook how long the TPOT runs took, please insert in Table 1. Thanks!
---->
-<p>Table: Time required to train all models of each type.</p>
 <h2 id="discussion">Discussion</h2>
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
