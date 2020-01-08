@@ -12,7 +12,7 @@ author-meta:
 - Michael E. Detsky
 - Jason H. Moore
 - Scott D. Halpern
-date-meta: '2019-12-19'
+date-meta: '2020-01-08'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
 
-  <meta name="dc.date" content="2019-12-19" />
+  <meta name="dc.date" content="2020-01-08" />
 
-  <meta name="citation_publication_date" content="2019-12-19" />
+  <meta name="citation_publication_date" content="2020-01-08" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/bd81d9f33dfa712f3ac70336182775a34c1af161/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/bd81d9f33dfa712f3ac70336182775a34c1af161/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/bd81d9f33dfa712f3ac70336182775a34c1af161/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,10 +192,10 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/bd81d9f33dfa712f3ac70336182775a34c1af161/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/))
 was automatically generated
-from [gweissman/icu_ml_ms@bd81d9f](https://github.com/gweissman/icu_ml_ms/tree/bd81d9f33dfa712f3ac70336182775a34c1af161)
-on December 19, 2019.
+from [gweissman/icu_ml_ms@31a03b9](https://github.com/gweissman/icu_ml_ms/tree/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0)
+on January 8, 2020.
 </em></small>
 
 ## Authors
@@ -348,8 +348,7 @@ Only one investigator (SB) had access to the outcomes in the testing dataset for
 
 We used a dataset derived from a prospective cohort study that was conducted from 2013 to 2014 among patients who spent at least three days in an intensive care unit (ICU) [@OcPf8cNA].
 Among 303 patients in the original cohort, 301 (99.3%) had sufficient identifiers to be linked to their original chart in the electronic health record (EHR) to query detailed clinical data.
-Interviews with patients and their surrogate decision makers were used to determine their quality of life prior to ICU admission.
-Mortality status at six months after discharge was determined by review of the EHR and follow-up phone calls with patients and surrogates.
+Quality of life and mortality after six-month following discharge were determined in the original study using phone interviews and review of the EHR.
 
 ### Outcomes
 
@@ -360,7 +359,7 @@ In a secondary analysis, each modeling approach was used to predict the patient'
 
 #### Manual machine learning
 
-We used the scikit-learn software package in Python to train a traditional multivariable logistic regression model, a penalized regression model (L1 and L2 penalties), and an XGBoost classification model [@1iuWTU7i].
+We used the scikit-learn software package [@114AehMZu] in Python to train a traditional multivariable logistic regression model, a penalized regression model (L1 and L2 penalties), and an XGBoost classification model [@1iuWTU7i].
 Because of the small sample sizes and relatively large number of features, each model was trained using the first 20 principle components of each training dataset.
 In all cases, the decomposition identified in the training dataset was also used for the testing dataset.
 Tuning parameters for the penalized regression and the XGBoost model were determined by grid search with 5-fold cross validation.
