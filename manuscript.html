@@ -101,9 +101,9 @@
   <meta property="twitter:url" content="https://gweissman.github.io/icu_ml_ms/" />
   <meta name="citation_fulltext_html_url" content="https://gweissman.github.io/icu_ml_ms/" />
   <meta name="citation_pdf_url" content="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/" />
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -114,7 +114,7 @@
 <header id="title-block-header">
 <h1 class="title">Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/">permalink</a>) was automatically generated from <a href="https://github.com/gweissman/icu_ml_ms/tree/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0">gweissman/icu_ml_ms@31a03b9</a> on January 8, 2020. </em></small></p>
+<p><small><em> This manuscript (<a href="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/">permalink</a>) was automatically generated from <a href="https://github.com/gweissman/icu_ml_ms/tree/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90">gweissman/icu_ml_ms@163f8ff</a> on January 8, 2020. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Gary E. Weissman</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/0000-0001-9588-3819">0000-0001-9588-3819</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/gweissman">gweissman</a> · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" /> <a href="https://twitter.com/garyweissman">garyweissman</a><br> <small> Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104; Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104 · Funded by Grant XXXXXXXX </small></p></li>
@@ -145,13 +145,15 @@
 <p>We used a dataset derived from a prospective cohort study that was conducted from 2013 to 2014 among patients who spent at least three days in an intensive care unit (ICU).<span class="citation" data-cites="OcPf8cNA"><sup><a href="#ref-OcPf8cNA" role="doc-biblioref">8</a></sup></span> Among 303 patients in the original cohort, 301 (99.3%) had sufficient identifiers to be linked to their original chart in the electronic health record (EHR) to query detailed clinical data. Quality of life and mortality after six-month following discharge were determined in the original study using phone interviews and review of the EHR.</p>
 <h3 id="outcomes">Outcomes</h3>
 <p>For the primary analysis, each modeling approach was used to predict mortality after six months from hospital discharge. In a secondary analysis, each modeling approach was used to predict the patient’s quality of life, defined as a binary variable of whether the quality of life was at least as good as it was prior to the ICU admission.</p>
+<h3 id="clinical-variables">Clinical variables</h3>
+<p>Each model had access to the following variables for each patient: age (years), gender (man or woman), race (XXX), diagnosis (XXX), ICU type (medical or non-medical), the presence of any Elixhauser comorbidity categories (see Table XXX), and the Apache score on admission to the ICU. Other variables recorded on the first and second days of the ICU admission included glucose (highest), white blood cell count (WBC; highest), hematocrit (%; lowest), serum sodium (lowest), blood urea nitrogen (highest), total bilirubin (highest), albumin (lowest), pH (lowest), PaCO2 (highest), PaO2 (lowest), temperature (F; highest), heart rate (bpm; highest), respiratory rate (highest), systolic blood pressure (mm Hg; lowest), Glasgow coma scale (GCS; lowest), urine output in the past 24 hours (mL), and the fraction of inspired oxygen (FiO2; %).</p>
 <h3 id="model-types">Model Types</h3>
 <h4 id="manual-machine-learning">Manual machine learning</h4>
-<p>We used the scikit-learn software package<span class="citation" data-cites="114AehMZu"><sup><a href="#ref-114AehMZu" role="doc-biblioref">9</a></sup></span> in Python to train a traditional multivariable logistic regression model, a penalized regression model (L1 and L2 penalties), and an XGBoost classification model.<span class="citation" data-cites="1iuWTU7i"><sup><a href="#ref-1iuWTU7i" role="doc-biblioref">10</a></sup></span> Because of the small sample sizes and relatively large number of features, each model was trained using the first 20 principle components of each training dataset. In all cases, the decomposition identified in the training dataset was also used for the testing dataset. Tuning parameters for the penalized regression and the XGBoost model were determined by grid search with 5-fold cross validation.</p>
+<p>We used the scikit-learn software package in Python to train a traditional multivariable logistic regression model, a penalized regression model (L1 and L2 penalties), and an XGBoost classification model.<span class="citation" data-cites="1iuWTU7i"><sup><a href="#ref-1iuWTU7i" role="doc-biblioref">9</a></sup></span> Because of the small sample sizes and relatively large number of features, each model was trained using the first 20 principle components of each training dataset. In all cases, the same decomposition derived in the training dataset was also used for the testing dataset. Tuning parameters for the penalized regression and the XGBoost model were determined by grid search with 5-fold cross validation.</p>
 <h4 id="automated-machine-learning">Automated Machine Learning</h4>
-<p>To test the performance of models developed through an automated machine learning approach, we used the Tree-based Pipeline Optimization Tool (TPOT). TODO(Trang)</p>
+<p>To test the performance of models developed through an automated machine learning approach, we used the Tree-based Pipeline Optimization Tool (TPOT).<span class="citation" data-cites="12tC5JTV6"><sup><a href="#ref-12tC5JTV6" role="doc-biblioref">7</a></sup></span> TODO(Trang)</p>
 <h4 id="feat">Feat</h4>
-<p>To test the performance of an automated machine learning pipeline that could … TODO(Bill)</p>
+<p>To test the performance of an automated machine learning pipeline<span class="citation" data-cites="ZbSwTz5q"><sup><a href="#ref-ZbSwTz5q" role="doc-biblioref">10</a></sup></span> … TODO(Bill)</p>
 <h3 id="missing-data">Missing Data</h3>
 <p>A manual chart review of the EHR confirmed that none of the missing data elements were due to an error in the dataset or in the database query, but rather were due to data not entered into the EHR. We employed three different approaches to handling missing data to understand their effects on model performance in small clinical datasets and to test how they were related to performance using different modeling approaches.</p>
 <p>First, we left all data as missing and allowed each modeling approach to deal with the data differently. For the manually trained models, missingness indicator variables were generated for SBP, pH, albumin, and FiO2, considering that their absence would be informative based on clinical experience caring for patients in the ICU. The remaining missing data were imputed using a k-nearest neighbors procedure. For the TPOT models, median imputation was used for all missing variables. For the Feat models, … TODO(Bill).</p>
@@ -259,11 +261,11 @@ TODO(Trang): I couldn't tell from the notebook how long the TPOT runs took, plea
 <div id="ref-OcPf8cNA">
 <p>8. Detsky ME, Harhay MO, Bayard DF, et al. Discriminative Accuracy of Physician and Nurse Predictions for Survival and Functional Outcomes 6 Months After an ICU Admission. <em>JAMA</em>. 2017;317(21):2187. doi:<a href="https://doi.org/10.1001/jama.2017.4078">10.1001/jama.2017.4078</a></p>
 </div>
-<div id="ref-114AehMZu">
-<p>9. Pedregosa F, Varoquaux G, Gramfort A, et al. Scikit-learn: Machine Learning in Python. <em>Journal of Machine Learning Research</em>. 2011;12:2825−2830. <a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html">http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html</a>. Accessed January 8, 2020.</p>
-</div>
 <div id="ref-1iuWTU7i">
-<p>10. Pedregosa F, Varoquaux G, Gramfort A, et al. Scikit-learn: Machine Learning in Python. <em>Journal of Machine Learning Research</em>. October 2011. <a href="https://hal.inria.fr/hal-00650905">https://hal.inria.fr/hal-00650905</a>. Accessed January 8, 2020.</p>
+<p>9. Pedregosa F, Varoquaux G, Gramfort A, et al. Scikit-learn: Machine Learning in Python. <em>Journal of Machine Learning Research</em>. October 2011. <a href="https://hal.inria.fr/hal-00650905">https://hal.inria.fr/hal-00650905</a>. Accessed January 8, 2020.</p>
+</div>
+<div id="ref-ZbSwTz5q">
+<p>10. La Cava W, Singh TR, Taggart J, Suri S, Moore JH. Learning concise representations for regression by evolving networks of trees. <em>arXiv:180700981 [cs]</em>. March 2019. <a href="http://arxiv.org/abs/1807.00981">http://arxiv.org/abs/1807.00981</a>. Accessed January 8, 2020.</p>
 </div>
 <div id="ref-M2iYoflW">
 <p>11. Buuren S van, Groothuis-Oudshoorn K. mice: Multivariate Imputation by Chained Equations inR. <em>J Stat Soft</em>. 2011;45(3). doi:<a href="https://doi.org/10.18637/jss.v045.i03">10.18637/jss.v045.i03</a></p>

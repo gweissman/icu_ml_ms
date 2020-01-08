@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,9 +192,9 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90/))
 was automatically generated
-from [gweissman/icu_ml_ms@31a03b9](https://github.com/gweissman/icu_ml_ms/tree/31a03b96fbb3a0b3c66d9904a629a5fcbfc261d0)
+from [gweissman/icu_ml_ms@163f8ff](https://github.com/gweissman/icu_ml_ms/tree/163f8ff6dde3fb2bb5fb8e9887db532ff80d8f90)
 on January 8, 2020.
 </em></small>
 
@@ -355,22 +355,27 @@ Quality of life and mortality after six-month following discharge were determine
 For the primary analysis, each modeling approach was used to predict mortality after six months from hospital discharge.
 In a secondary analysis, each modeling approach was used to predict the patient's quality of life, defined as a binary variable of whether the quality of life was at least as good as it was prior to the ICU admission.
 
+### Clinical variables
+
+Each model had access to the following variables for each patient: age (years), gender (man or woman), race (XXX), diagnosis (XXX), ICU type (medical or non-medical), the presence of any Elixhauser comorbidity categories (see Table XXX), and the Apache score on admission to the ICU.
+Other variables recorded on the first and second days of the ICU admission included glucose (highest), white blood cell count (WBC; highest), hematocrit (%; lowest), serum sodium (lowest), blood urea nitrogen (highest), total bilirubin (highest), albumin (lowest), pH (lowest), PaCO2 (highest), PaO2 (lowest), temperature (F; highest), heart rate (bpm; highest), respiratory rate (highest), systolic blood pressure (mm Hg; lowest), Glasgow coma scale (GCS; lowest), urine output in the past 24 hours (mL), and the fraction of inspired oxygen (FiO2; %).
+
 ### Model Types
 
 #### Manual machine learning
 
-We used the scikit-learn software package [@114AehMZu] in Python to train a traditional multivariable logistic regression model, a penalized regression model (L1 and L2 penalties), and an XGBoost classification model [@1iuWTU7i].
+We used the scikit-learn software package in Python to train a traditional multivariable logistic regression model, a penalized regression model (L1 and L2 penalties), and an XGBoost classification model [@1iuWTU7i].
 Because of the small sample sizes and relatively large number of features, each model was trained using the first 20 principle components of each training dataset.
-In all cases, the decomposition identified in the training dataset was also used for the testing dataset.
+In all cases, the same decomposition derived in the training dataset was also used for the testing dataset.
 Tuning parameters for the penalized regression and the XGBoost model were determined by grid search with 5-fold cross validation.
 
 #### Automated Machine Learning
 
-To test the performance of models developed through an automated machine learning approach, we used the Tree-based Pipeline Optimization Tool (TPOT). TODO(Trang)
+To test the performance of models developed through an automated machine learning approach, we used the Tree-based Pipeline Optimization Tool (TPOT).[@12tC5JTV6] TODO(Trang)
 
 #### Feat
 
-To test the performance of an automated machine learning pipeline that could ... TODO(Bill)
+To test the performance of an automated machine learning pipeline [@ZbSwTz5q] ... TODO(Bill)
 
 ### Missing Data
 
