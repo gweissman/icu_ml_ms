@@ -12,7 +12,7 @@ author-meta:
 - Michael E. Detsky
 - Jason H. Moore
 - Scott D. Halpern
-date-meta: '2020-01-08'
+date-meta: '2020-01-09'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
 
-  <meta name="dc.date" content="2020-01-08" />
+  <meta name="dc.date" content="2020-01-09" />
 
-  <meta name="citation_publication_date" content="2020-01-08" />
+  <meta name="citation_publication_date" content="2020-01-09" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/dff38eaf1581241b75d4a03c3b74882e647e80fd/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/dff38eaf1581241b75d4a03c3b74882e647e80fd/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/dff38eaf1581241b75d4a03c3b74882e647e80fd/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,10 +192,10 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/9d6f8a97ad1342178f4c80396606f2bd52ddf53d/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/dff38eaf1581241b75d4a03c3b74882e647e80fd/))
 was automatically generated
-from [gweissman/icu_ml_ms@9d6f8a9](https://github.com/gweissman/icu_ml_ms/tree/9d6f8a97ad1342178f4c80396606f2bd52ddf53d)
-on January 8, 2020.
+from [gweissman/icu_ml_ms@dff38ea](https://github.com/gweissman/icu_ml_ms/tree/dff38eaf1581241b75d4a03c3b74882e647e80fd)
+on January 9, 2020.
 </em></small>
 
 ## Authors
@@ -369,9 +369,15 @@ Because of the small sample sizes and relatively large number of features, each 
 In all cases, the same decomposition derived in the training dataset was also used for the testing dataset.
 Tuning parameters for the penalized regression and the XGBoost model were determined by grid search with 5-fold cross validation.
 
-#### Automated Machine Learning
+#### Automated machine learning
 
-To test the performance of models developed through an automated machine learning approach, we used the Tree-based Pipeline Optimization Tool (TPOT).[@12tC5JTV6] TODO(Trang)
+To test the performance of models developed through an automated machine learning (autoML) approach, we used the Tree-based Pipeline Optimization Tool (TPOT) [@12tC5JTV6].
+Designed for supervised learning problems, TPOT is a user-friendly autoML library that recommends an optimal series of data processing, feature engineering and classification/regression operators.
+Using tree-based representations of the pipelines, TPOT explores its search space with genetic programming to arrive at a final pipeline that produces the most accurate predict the outcome in cross-validation.
+Recently, a new option in TPOT called Template was developed to allow the user to define a desired pipeline structure for TPOT to optimize, trading pipeline flexibility for simplicity and reduced computation time [@17a3WKGzu].
+
+In this study, we applied both the standard TPOT approach (TPOT Standard) and TPOT with the *Transformer &rarr; Classifier* template (TPOT Template) to predict the six-month outcomes and compare their performance to the other methods.
+We designate 100 generations at maximum for each TPOT run, each generation with the population size of 100.
 
 #### Feat
 
