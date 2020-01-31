@@ -12,7 +12,7 @@ author-meta:
 - Michael E. Detsky
 - Jason H. Moore
 - Scott D. Halpern
-date-meta: '2020-01-09'
+date-meta: '2020-01-31'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
 
-  <meta name="dc.date" content="2020-01-09" />
+  <meta name="dc.date" content="2020-01-31" />
 
-  <meta name="citation_publication_date" content="2020-01-09" />
+  <meta name="citation_publication_date" content="2020-01-31" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/dff38eaf1581241b75d4a03c3b74882e647e80fd/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/b4e2e9674b761335f5fe76150760a49ca5f1a4c8/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/dff38eaf1581241b75d4a03c3b74882e647e80fd/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/b4e2e9674b761335f5fe76150760a49ca5f1a4c8/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/dff38eaf1581241b75d4a03c3b74882e647e80fd/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/b4e2e9674b761335f5fe76150760a49ca5f1a4c8/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,10 +192,10 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/dff38eaf1581241b75d4a03c3b74882e647e80fd/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/b4e2e9674b761335f5fe76150760a49ca5f1a4c8/))
 was automatically generated
-from [gweissman/icu_ml_ms@dff38ea](https://github.com/gweissman/icu_ml_ms/tree/dff38eaf1581241b75d4a03c3b74882e647e80fd)
-on January 9, 2020.
+from [gweissman/icu_ml_ms@b4e2e96](https://github.com/gweissman/icu_ml_ms/tree/b4e2e9674b761335f5fe76150760a49ca5f1a4c8)
+on January 31, 2020.
 </em></small>
 
 ## Authors
@@ -454,14 +454,14 @@ For the primary analysis, testing a six-month mortality prediction using one day
 
 The (Table 1).
 
-| Model type | Time (seconds) | Time (hours) | Relative Time |
-|----|-------|------|-----|
-| MLR | 2.00 | <0.001 | x1 |
-| PLR | 5.16 | 0.001  | x2.6 |
-| XGBoost | 5,439.6 | 1.5 | x2,720 |
-| Feat | 95,244.82 | 26.5 | x47,613 |
-| TPOT - Template | 184,444.6 | 51.2 | x92,222 |
-| TPOT - Standard | 258,331.3 | 71.8 | x129,166 |
+| Model type | Time (seconds) | Time (hours) | Relative Time | Hardware |
+|----|-------|------|-----|-----|
+| MLR | 2.00 | <0.001 | x1 | MacBook Pro (2018), 2.9 GHz Intel Core i9 |
+| PLR | 5.16 | 0.001  | x2.6 | MacBook Pro (2018), 2.9 GHz Intel Core i9 |
+| XGBoost | 5,439.6 | 1.5 | x2,720 | MacBook Pro (2018), 2.9 GHz Intel Core i9 |
+| Feat | 95,244.82 | 26.5 | x47,613 | |
+| TPOT - Template | 184,444.6 | 51.2 | x92,222 | |
+| TPOT - Standard | 258,331.3 | 71.8 | x129,166 | |
 
 
 Table: Time required to train all models of each type.
