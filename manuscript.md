@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/b4e2e9674b761335f5fe76150760a49ca5f1a4c8/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/2f7c41a0c1023e20473a4db5c337614878357aea/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/b4e2e9674b761335f5fe76150760a49ca5f1a4c8/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/2f7c41a0c1023e20473a4db5c337614878357aea/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/b4e2e9674b761335f5fe76150760a49ca5f1a4c8/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/2f7c41a0c1023e20473a4db5c337614878357aea/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,9 +192,9 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/b4e2e9674b761335f5fe76150760a49ca5f1a4c8/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/2f7c41a0c1023e20473a4db5c337614878357aea/))
 was automatically generated
-from [gweissman/icu_ml_ms@b4e2e96](https://github.com/gweissman/icu_ml_ms/tree/b4e2e9674b761335f5fe76150760a49ca5f1a4c8)
+from [gweissman/icu_ml_ms@2f7c41a](https://github.com/gweissman/icu_ml_ms/tree/2f7c41a0c1023e20473a4db5c337614878357aea)
 on January 31, 2020.
 </em></small>
 
