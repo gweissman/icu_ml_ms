@@ -12,7 +12,7 @@ author-meta:
 - Michael E. Detsky
 - Jason H. Moore
 - Scott D. Halpern
-date-meta: '2020-01-31'
+date-meta: '2020-02-06'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
 
-  <meta name="dc.date" content="2020-01-31" />
+  <meta name="dc.date" content="2020-02-06" />
 
-  <meta name="citation_publication_date" content="2020-01-31" />
+  <meta name="citation_publication_date" content="2020-02-06" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -83,7 +83,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Steven Brooks" />
 
-  <meta name="citation_author_institution" content="Boehringer Ingelheim, Shanghai, China" />
+  <meta name="citation_author_institution" content="Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="None" />
 
@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/2f7c41a0c1023e20473a4db5c337614878357aea/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/2f7c41a0c1023e20473a4db5c337614878357aea/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/2f7c41a0c1023e20473a4db5c337614878357aea/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,10 +192,10 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/2f7c41a0c1023e20473a4db5c337614878357aea/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/))
 was automatically generated
-from [gweissman/icu_ml_ms@2f7c41a](https://github.com/gweissman/icu_ml_ms/tree/2f7c41a0c1023e20473a4db5c337614878357aea)
-on January 31, 2020.
+from [gweissman/icu_ml_ms@d166698](https://github.com/gweissman/icu_ml_ms/tree/d166698cf250e67442f128198e1eb3a21672475c)
+on February 6, 2020.
 </em></small>
 
 ## Authors
@@ -211,7 +211,6 @@ on January 31, 2020.
     [garyweissman](https://twitter.com/garyweissman)<br>
   <small>
      Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104; Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
-     · Funded by Grant XXXXXXXX
   </small>
 
 + **Trang T. Le**<br>
@@ -245,7 +244,7 @@ on January 31, 2020.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [stevegbrooks](https://github.com/stevegbrooks)<br>
   <small>
-     Boehringer Ingelheim, Shanghai, China
+     Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **Elizabeth L. Cooney**<br><br>
