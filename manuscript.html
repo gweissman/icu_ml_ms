@@ -16,7 +16,7 @@
   <meta name="author" content="Michael E. Detsky" />
   <meta name="author" content="Jason H. Moore" />
   <meta name="author" content="Scott D. Halpern" />
-  <meta name="dcterms.date" content="2020-02-06" />
+  <meta name="dcterms.date" content="2020-03-27" />
   <meta name="keywords" content="machine learning, icu" />
   <title>Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit</title>
   <style>
@@ -37,8 +37,8 @@
   <meta name="citation_title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
   <meta property="og:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
-  <meta name="dc.date" content="2020-02-06" />
-  <meta name="citation_publication_date" content="2020-02-06" />
+  <meta name="dc.date" content="2020-03-27" />
+  <meta name="citation_publication_date" content="2020-03-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -101,9 +101,9 @@
   <meta property="twitter:url" content="https://gweissman.github.io/icu_ml_ms/" />
   <meta name="citation_fulltext_html_url" content="https://gweissman.github.io/icu_ml_ms/" />
   <meta name="citation_pdf_url" content="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/" />
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/468f06fd2e87438bd49f0f5a5f3f1531e733f1a5/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/468f06fd2e87438bd49f0f5a5f3f1531e733f1a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/468f06fd2e87438bd49f0f5a5f3f1531e733f1a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -114,7 +114,7 @@
 <header id="title-block-header">
 <h1 class="title">Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/">permalink</a>) was automatically generated from <a href="https://github.com/gweissman/icu_ml_ms/tree/d166698cf250e67442f128198e1eb3a21672475c">gweissman/icu_ml_ms@d166698</a> on February 6, 2020. </em></small></p>
+<p><small><em> This manuscript (<a href="https://gweissman.github.io/icu_ml_ms/v/468f06fd2e87438bd49f0f5a5f3f1531e733f1a5/">permalink</a>) was automatically generated from <a href="https://github.com/gweissman/icu_ml_ms/tree/468f06fd2e87438bd49f0f5a5f3f1531e733f1a5">gweissman/icu_ml_ms@468f06f</a> on March 27, 2020. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Gary E. Weissman</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/0000-0001-9588-3819">0000-0001-9588-3819</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/gweissman">gweissman</a> · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" /> <a href="https://twitter.com/garyweissman">garyweissman</a><br> <small> Palliative and Advanced Illness Research (PAIR) Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104; Division of Pulmonary, Allergy, and Critical Care Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104 </small></p></li>
@@ -245,6 +245,7 @@ BS_s = 1 - \frac{\frac{1}{N}\sum_i^N (y_i - p_i)^2}{\frac{1}{N}\sum_i^N (y_i - \
 </tbody>
 </table>
 <h2 id="discussion">Discussion</h2>
+<p>These findings reinforce prior work demonstrating no benefit in predictive performance to using machine learning models compared to traditional regression approaches.<span class="citation" data-cites="1DxCZu0Rz"><sup><a href="#ref-1DxCZu0Rz" role="doc-biblioref">14</a></sup></span></p>
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
@@ -273,19 +274,22 @@ BS_s = 1 - \frac{\frac{1}{N}\sum_i^N (y_i - p_i)^2}{\frac{1}{N}\sum_i^N (y_i - \
 <p>8. Detsky ME, Harhay MO, Bayard DF, et al. Discriminative Accuracy of Physician and Nurse Predictions for Survival and Functional Outcomes 6 Months After an ICU Admission. <em>JAMA</em>. 2017;317(21):2187. doi:<a href="https://doi.org/10.1001/jama.2017.4078">10.1001/jama.2017.4078</a></p>
 </div>
 <div id="ref-1iuWTU7i">
-<p>9. Pedregosa F, Varoquaux G, Gramfort A, et al. Scikit-learn: Machine Learning in Python. <em>Journal of Machine Learning Research</em>. October 2011. <a href="https://hal.inria.fr/hal-00650905">https://hal.inria.fr/hal-00650905</a>. Accessed February 6, 2020.</p>
+<p>9. Pedregosa F, Varoquaux G, Gramfort A, et al. Scikit-learn: Machine Learning in Python. <em>Journal of Machine Learning Research</em>. October 2011. <a href="https://hal.inria.fr/hal-00650905">https://hal.inria.fr/hal-00650905</a>. Accessed March 27, 2020.</p>
 </div>
 <div id="ref-17a3WKGzu">
-<p>10. Le TT, Fu W, Moore JH. Scaling tree-based automated machine learning to biomedical big data with a feature set selector. Kelso J, ed. <em>Bioinformatics</em>. June 2019. doi:<a href="https://doi.org/10.1093/bioinformatics/btz470">10.1093/bioinformatics/btz470</a></p>
+<p>10. Le TT, Fu W, Moore JH. Scaling tree-based automated machine learning to biomedical big data with a feature set selector. Kelso J, ed. <em>Bioinformatics</em>. 2019;36(1):250-256. doi:<a href="https://doi.org/10.1093/bioinformatics/btz470">10.1093/bioinformatics/btz470</a></p>
 </div>
 <div id="ref-ZbSwTz5q">
-<p>11. La Cava W, Singh TR, Taggart J, Suri S, Moore JH. Learning concise representations for regression by evolving networks of trees. <em>arXiv:180700981 [cs]</em>. March 2019. <a href="http://arxiv.org/abs/1807.00981">http://arxiv.org/abs/1807.00981</a>. Accessed February 6, 2020.</p>
+<p>11. La Cava W, Singh TR, Taggart J, Suri S, Moore JH. Learning concise representations for regression by evolving networks of trees. <em>arXiv:180700981 [cs]</em>. March 2019. <a href="http://arxiv.org/abs/1807.00981">http://arxiv.org/abs/1807.00981</a>. Accessed March 27, 2020.</p>
 </div>
 <div id="ref-M2iYoflW">
 <p>12. Buuren S van, Groothuis-Oudshoorn K. mice: Multivariate Imputation by Chained Equations inR. <em>J Stat Soft</em>. 2011;45(3). doi:<a href="https://doi.org/10.18637/jss.v045.i03">10.18637/jss.v045.i03</a></p>
 </div>
 <div id="ref-2Adg9qeV">
 <p>13. Steyerberg EW, Vickers AJ, Cook NR, et al. Assessing the Performance of Prediction Models. <em>Epidemiology</em>. 2010;21(1):128-138. doi:<a href="https://doi.org/10.1097/ede.0b013e3181c30fb2">10.1097/ede.0b013e3181c30fb2</a></p>
+</div>
+<div id="ref-1DxCZu0Rz">
+<p>14. Gravesteijn BY, Nieboer D, Ercole A, et al. Machine learning algorithms performed no better than regression models for prognostication in traumatic brain injury. <em>Journal of Clinical Epidemiology</em>. March 2020. doi:<a href="https://doi.org/10.1016/j.jclinepi.2020.03.005">10.1016/j.jclinepi.2020.03.005</a></p>
 </div>
 </div>
 <!-- default theme -->

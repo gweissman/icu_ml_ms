@@ -12,7 +12,7 @@ author-meta:
 - Michael E. Detsky
 - Jason H. Moore
 - Scott D. Halpern
-date-meta: '2020-02-06'
+date-meta: '2020-03-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Automated versus Manual Machine Learning with Small Data for Predictions of Six-Month Outcomes Among Patients in the Intensive Care Unit" />
 
-  <meta name="dc.date" content="2020-02-06" />
+  <meta name="dc.date" content="2020-03-27" />
 
-  <meta name="citation_publication_date" content="2020-02-06" />
+  <meta name="citation_publication_date" content="2020-03-27" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -161,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://gweissman.github.io/icu_ml_ms/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/" />
+  <link rel="alternate" type="text/html" href="https://gweissman.github.io/icu_ml_ms/v/468f06fd2e87438bd49f0f5a5f3f1531e733f1a5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/" />
+  <meta name="manubot_html_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/468f06fd2e87438bd49f0f5a5f3f1531e733f1a5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://gweissman.github.io/icu_ml_ms/v/468f06fd2e87438bd49f0f5a5f3f1531e733f1a5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -192,10 +192,10 @@ title: Automated versus Manual Machine Learning with Small Data for Predictions 
 
 <small><em>
 This manuscript
-([permalink](https://gweissman.github.io/icu_ml_ms/v/d166698cf250e67442f128198e1eb3a21672475c/))
+([permalink](https://gweissman.github.io/icu_ml_ms/v/468f06fd2e87438bd49f0f5a5f3f1531e733f1a5/))
 was automatically generated
-from [gweissman/icu_ml_ms@d166698](https://github.com/gweissman/icu_ml_ms/tree/d166698cf250e67442f128198e1eb3a21672475c)
-on February 6, 2020.
+from [gweissman/icu_ml_ms@468f06f](https://github.com/gweissman/icu_ml_ms/tree/468f06fd2e87438bd49f0f5a5f3f1531e733f1a5)
+on March 27, 2020.
 </em></small>
 
 ## Authors
@@ -467,6 +467,9 @@ Table: Time required to train all models of each type.
 
 
 ## Discussion
+
+These findings reinforce prior work demonstrating no benefit in predictive performance to using machine learning models compared to traditional regression approaches.[@1DxCZu0Rz]
+
 
 ## References {.page_break_before}
 

@@ -254,6 +254,1014 @@
   },
   {
     "publisher": "Elsevier BV",
+    "DOI": "10.1016/j.jclinepi.2020.03.005",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Machine learning algorithms performed no better than regression models for prognostication in traumatic brain injury",
+    "author": [
+      {
+        "given": "Benjamin Y.",
+        "family": "Gravesteijn"
+      },
+      {
+        "given": "Daan",
+        "family": "Nieboer"
+      },
+      {
+        "given": "Ari",
+        "family": "Ercole"
+      },
+      {
+        "given": "Hester F.",
+        "family": "Lingsma"
+      },
+      {
+        "given": "David",
+        "family": "Nelson"
+      },
+      {
+        "given": "Ben",
+        "family": "van Calster"
+      },
+      {
+        "given": "Ewout W.",
+        "family": "Steyerberg"
+      },
+      {
+        "given": "Cecilia",
+        "family": "Åkerlund"
+      },
+      {
+        "given": "Krisztina",
+        "family": "Amrein"
+      },
+      {
+        "given": "Nada",
+        "family": "Andelic"
+      },
+      {
+        "given": "Lasse",
+        "family": "Andreassen"
+      },
+      {
+        "given": "Audny",
+        "family": "Anke"
+      },
+      {
+        "given": "Anna",
+        "family": "Antoni"
+      },
+      {
+        "given": "Gérard",
+        "family": "Audibert"
+      },
+      {
+        "given": "Philippe",
+        "family": "Azouvi"
+      },
+      {
+        "given": "Maria Luisa",
+        "family": "Azzolini"
+      },
+      {
+        "given": "Ronald",
+        "family": "Bartels"
+      },
+      {
+        "given": "Pál",
+        "family": "Barzó"
+      },
+      {
+        "given": "Romuald",
+        "family": "Beauvais"
+      },
+      {
+        "given": "Ronny",
+        "family": "Beer"
+      },
+      {
+        "given": "Bo-Michael",
+        "family": "Bellander"
+      },
+      {
+        "given": "Antonio",
+        "family": "Belli"
+      },
+      {
+        "given": "Habib",
+        "family": "Benali"
+      },
+      {
+        "given": "Maurizio",
+        "family": "Berardino"
+      },
+      {
+        "given": "Luigi",
+        "family": "Beretta"
+      },
+      {
+        "given": "Morten",
+        "family": "Blaabjerg"
+      },
+      {
+        "given": "Peter",
+        "family": "Bragge"
+      },
+      {
+        "given": "Alexandra",
+        "family": "Brazinova"
+      },
+      {
+        "given": "Vibeke",
+        "family": "Brinck"
+      },
+      {
+        "given": "Joanne",
+        "family": "Brooker"
+      },
+      {
+        "given": "Camilla",
+        "family": "Brorsson"
+      },
+      {
+        "given": "Andras",
+        "family": "Buki"
+      },
+      {
+        "given": "Monika",
+        "family": "Bullinger"
+      },
+      {
+        "given": "Manuel",
+        "family": "Cabeleira"
+      },
+      {
+        "given": "Alessio",
+        "family": "Caccioppola"
+      },
+      {
+        "given": "Emiliana",
+        "family": "Calappi"
+      },
+      {
+        "given": "Maria Rosa",
+        "family": "Calvi"
+      },
+      {
+        "given": "Peter",
+        "family": "Cameron"
+      },
+      {
+        "given": "Guillermo Carbayo",
+        "family": "Lozano"
+      },
+      {
+        "given": "Marco",
+        "family": "Carbonara"
+      },
+      {
+        "given": "Giorgio",
+        "family": "Chevallard"
+      },
+      {
+        "given": "Arturo",
+        "family": "Chieregato"
+      },
+      {
+        "given": "Giuseppe",
+        "family": "Citerio"
+      },
+      {
+        "given": "Maryse",
+        "family": "Cnossen"
+      },
+      {
+        "given": "Mark",
+        "family": "Coburn"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Coles"
+      },
+      {
+        "given": "D. Jamie",
+        "family": "Cooper"
+      },
+      {
+        "given": "Marta",
+        "family": "Correia"
+      },
+      {
+        "given": "Amra",
+        "family": "Čović"
+      },
+      {
+        "given": "Nicola",
+        "family": "Curry"
+      },
+      {
+        "given": "Endre",
+        "family": "Czeiter"
+      },
+      {
+        "given": "Marek",
+        "family": "Czosnyka"
+      },
+      {
+        "given": "Claire",
+        "family": "Dahyot-Fizelier"
+      },
+      {
+        "given": "Helen",
+        "family": "Dawes"
+      },
+      {
+        "given": "Véronique",
+        "family": "De Keyser"
+      },
+      {
+        "given": "Vincent",
+        "family": "Degos"
+      },
+      {
+        "given": "Francesco",
+        "family": "Della Corte"
+      },
+      {
+        "given": "Hugo den",
+        "family": "Boogert"
+      },
+      {
+        "given": "Bart",
+        "family": "Depreitere"
+      },
+      {
+        "given": "Đula",
+        "family": "Đilvesi"
+      },
+      {
+        "given": "Abhishek",
+        "family": "Dixit"
+      },
+      {
+        "given": "Emma",
+        "family": "Donoghue"
+      },
+      {
+        "given": "Jens Dreier",
+        "family": "Guy-Loup Dulière"
+      },
+      {
+        "given": "Ari",
+        "family": "Ercole"
+      },
+      {
+        "given": "Patrick",
+        "family": "Esser"
+      },
+      {
+        "given": "Erzsébet Ezer",
+        "family": "Martin Fabricius"
+      },
+      {
+        "given": "Valery L.",
+        "family": "Feigin, Kelly Foks"
+      },
+      {
+        "given": "Shirin",
+        "family": "Frisvold"
+      },
+      {
+        "given": "Alex",
+        "family": "Furmanov"
+      },
+      {
+        "given": "Pablo",
+        "family": "Gagliardo"
+      },
+      {
+        "given": "Damien",
+        "family": "Galanaud"
+      },
+      {
+        "given": "Dashiell",
+        "family": "Gantner"
+      },
+      {
+        "given": "Guoyi",
+        "family": "Gao"
+      },
+      {
+        "given": "Pradeep",
+        "family": "George"
+      },
+      {
+        "given": "Alexandre",
+        "family": "Ghuysen"
+      },
+      {
+        "given": "Lelde",
+        "family": "Giga"
+      },
+      {
+        "given": "Ben",
+        "family": "Glocker"
+      },
+      {
+        "given": "Jagoš",
+        "family": "Golubovic"
+      },
+      {
+        "given": "Pedro A.",
+        "family": "Gomez"
+      },
+      {
+        "given": "Johannes",
+        "family": "Gratz"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Gravesteijn"
+      },
+      {
+        "given": "Francesca",
+        "family": "Grossi"
+      },
+      {
+        "given": "Russell L.",
+        "family": "Gruen"
+      },
+      {
+        "given": "Deepak",
+        "family": "Gupta"
+      },
+      {
+        "given": "Juanita A.",
+        "family": "Haagsma"
+      },
+      {
+        "given": "Iain",
+        "family": "Haitsma"
+      },
+      {
+        "given": "Raimund",
+        "family": "Helbok"
+      },
+      {
+        "given": "Eirik",
+        "family": "Helseth"
+      },
+      {
+        "given": "Lindsay",
+        "family": "Horton"
+      },
+      {
+        "given": "Jilske",
+        "family": "Huijben"
+      },
+      {
+        "given": "Peter J.",
+        "family": "Hutchinson"
+      },
+      {
+        "given": "Bram",
+        "family": "Jacobs"
+      },
+      {
+        "given": "Stefan",
+        "family": "Jankowski"
+      },
+      {
+        "given": "Mike Jarrett",
+        "family": "Ji-yao Jiang"
+      },
+      {
+        "given": "Kelly",
+        "family": "Jones"
+      },
+      {
+        "given": "Mladen",
+        "family": "Karan"
+      },
+      {
+        "given": "Angelos G.",
+        "family": "Kolias"
+      },
+      {
+        "given": "Erwin",
+        "family": "Kompanje"
+      },
+      {
+        "given": "Daniel",
+        "family": "Kondziella"
+      },
+      {
+        "given": "Evgenios",
+        "family": "Koraropoulos"
+      },
+      {
+        "given": "Lars-Owe",
+        "family": "Koskinen"
+      },
+      {
+        "given": "Noémi",
+        "family": "Kovács"
+      },
+      {
+        "given": "Alfonso",
+        "family": "Lagares"
+      },
+      {
+        "given": "Linda",
+        "family": "Lanyon"
+      },
+      {
+        "given": "Steven",
+        "family": "Laureys"
+      },
+      {
+        "given": "Fiona",
+        "family": "Lecky"
+      },
+      {
+        "given": "Rolf",
+        "family": "Lefering"
+      },
+      {
+        "given": "Valerie",
+        "family": "Legrand"
+      },
+      {
+        "given": "Aurelie",
+        "family": "Lejeune"
+      },
+      {
+        "given": "Leon",
+        "family": "Levi"
+      },
+      {
+        "given": "Roger",
+        "family": "Lightfoot"
+      },
+      {
+        "given": "Hester",
+        "family": "Lingsma"
+      },
+      {
+        "given": "Andrew I.R.",
+        "family": "Maas"
+      },
+      {
+        "given": "Ana M.",
+        "family": "Castaño-León"
+      },
+      {
+        "given": "Marc",
+        "family": "Maegele"
+      },
+      {
+        "given": "Marek",
+        "family": "Majdan"
+      },
+      {
+        "given": "Alex",
+        "family": "Manara"
+      },
+      {
+        "given": "Geoffrey",
+        "family": "Manley"
+      },
+      {
+        "given": "Costanza",
+        "family": "Martino"
+      },
+      {
+        "given": "Hugues",
+        "family": "Maréchal"
+      },
+      {
+        "given": "Julia",
+        "family": "Mattern"
+      },
+      {
+        "given": "Catherine",
+        "family": "McMahon"
+      },
+      {
+        "given": "Béla",
+        "family": "Melegh"
+      },
+      {
+        "given": "David",
+        "family": "Menon"
+      },
+      {
+        "given": "Tomas",
+        "family": "Menovsky"
+      },
+      {
+        "given": "Davide",
+        "family": "Mulazzi"
+      },
+      {
+        "given": "Visakh",
+        "family": "Muraleedharan"
+      },
+      {
+        "given": "Lynnette",
+        "family": "Murray"
+      },
+      {
+        "given": "Nandesh",
+        "family": "Nair"
+      },
+      {
+        "given": "Ancuta",
+        "family": "Negru"
+      },
+      {
+        "given": "David",
+        "family": "Nelson"
+      },
+      {
+        "given": "Virginia",
+        "family": "Newcombe"
+      },
+      {
+        "given": "Daan",
+        "family": "Nieboer"
+      },
+      {
+        "given": "Quentin",
+        "family": "Noirhomme"
+      },
+      {
+        "given": "József",
+        "family": "Nyirádi"
+      },
+      {
+        "given": "Otesile",
+        "family": "Olubukola"
+      },
+      {
+        "given": "Matej",
+        "family": "Oresic"
+      },
+      {
+        "given": "Fabrizio",
+        "family": "Ortolano"
+      },
+      {
+        "given": "Aarno",
+        "family": "Palotie"
+      },
+      {
+        "given": "Paul M.",
+        "family": "Parizel"
+      },
+      {
+        "given": "Jean-François",
+        "family": "Payen"
+      },
+      {
+        "given": "Natascha",
+        "family": "Perera"
+      },
+      {
+        "given": "Vincent",
+        "family": "Perlbarg"
+      },
+      {
+        "given": "Paolo",
+        "family": "Persona"
+      },
+      {
+        "given": "Wilco",
+        "family": "Peul"
+      },
+      {
+        "given": "Anna",
+        "family": "Piippo-Karjalainen"
+      },
+      {
+        "given": "Matti",
+        "family": "Pirinen"
+      },
+      {
+        "given": "Horia",
+        "family": "Ples"
+      },
+      {
+        "given": "Suzanne",
+        "family": "Polinder"
+      },
+      {
+        "given": "Inigo",
+        "family": "Pomposo"
+      },
+      {
+        "given": "Jussi P.",
+        "family": "Posti"
+      },
+      {
+        "given": "Louis",
+        "family": "Puybasset"
+      },
+      {
+        "given": "Andreea",
+        "family": "Radoi"
+      },
+      {
+        "given": "Arminas",
+        "family": "Ragauskas"
+      },
+      {
+        "given": "Rahul",
+        "family": "Raj"
+      },
+      {
+        "given": "Malinka",
+        "family": "Rambadagalla"
+      },
+      {
+        "given": "Ruben",
+        "family": "Real"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Rhodes"
+      },
+      {
+        "given": "Sylvia",
+        "family": "Richardson"
+      },
+      {
+        "given": "Sophie",
+        "family": "Richter"
+      },
+      {
+        "given": "Samuli",
+        "family": "Ripatti"
+      },
+      {
+        "given": "Saulius",
+        "family": "Rocka"
+      },
+      {
+        "given": "Cecilie",
+        "family": "Roe"
+      },
+      {
+        "given": "Olav",
+        "family": "Roise"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Rosand"
+      },
+      {
+        "given": "Jeffrey V.",
+        "family": "Rosenfeld"
+      },
+      {
+        "given": "Christina",
+        "family": "Rosenlund"
+      },
+      {
+        "given": "Guy",
+        "family": "Rosenthal"
+      },
+      {
+        "given": "Rolf",
+        "family": "Rossaint"
+      },
+      {
+        "given": "Sandra",
+        "family": "Rossi"
+      },
+      {
+        "given": "Daniel",
+        "family": "Rueckert"
+      },
+      {
+        "given": "Martin",
+        "family": "Rusnák"
+      },
+      {
+        "given": "Juan",
+        "family": "Sahuquillo"
+      },
+      {
+        "given": "Oliver",
+        "family": "Sakowitz"
+      },
+      {
+        "given": "Renan",
+        "family": "Sanchez-Porras"
+      },
+      {
+        "given": "Janos",
+        "family": "Sandor"
+      },
+      {
+        "given": "Nadine",
+        "family": "Schäfer"
+      },
+      {
+        "given": "Silke",
+        "family": "Schmidt"
+      },
+      {
+        "given": "Herbert",
+        "family": "Schoechl"
+      },
+      {
+        "given": "Guus",
+        "family": "Schoonman"
+      },
+      {
+        "given": "Rico Frederik",
+        "family": "Schou"
+      },
+      {
+        "given": "Elisabeth",
+        "family": "Schwendenwein"
+      },
+      {
+        "given": "Charlie",
+        "family": "Sewalt"
+      },
+      {
+        "given": "Toril",
+        "family": "Skandsen"
+      },
+      {
+        "given": "Peter",
+        "family": "Smielewski"
+      },
+      {
+        "given": "Abayomi",
+        "family": "Sorinola"
+      },
+      {
+        "given": "Emmanuel",
+        "family": "Stamatakis"
+      },
+      {
+        "given": "Simon",
+        "family": "Stanworth"
+      },
+      {
+        "given": "Ana",
+        "family": "Kowark"
+      },
+      {
+        "given": "Robert",
+        "family": "Stevens"
+      },
+      {
+        "given": "William",
+        "family": "Stewart"
+      },
+      {
+        "given": "Ewout W.",
+        "family": "Steyerberg"
+      },
+      {
+        "given": "Nino",
+        "family": "Stocchetti"
+      },
+      {
+        "given": "Nina",
+        "family": "Sundström"
+      },
+      {
+        "given": "Anneliese",
+        "family": "Synnot"
+      },
+      {
+        "given": "Riikka",
+        "family": "Takala"
+      },
+      {
+        "given": "Viktória",
+        "family": "Tamás"
+      },
+      {
+        "given": "Tomas",
+        "family": "Tamosuitis"
+      },
+      {
+        "given": "Mark Steven",
+        "family": "Taylor"
+      },
+      {
+        "given": "Braden Te",
+        "family": "Ao"
+      },
+      {
+        "given": "Olli",
+        "family": "Tenovuo"
+      },
+      {
+        "given": "Alice",
+        "family": "Theadom"
+      },
+      {
+        "given": "Matt",
+        "family": "Thomas"
+      },
+      {
+        "given": "Dick",
+        "family": "Tibboel"
+      },
+      {
+        "given": "Marjolein",
+        "family": "Timmers"
+      },
+      {
+        "given": "Christos",
+        "family": "Tolias"
+      },
+      {
+        "given": "Tony",
+        "family": "Trapani"
+      },
+      {
+        "given": "Cristina Maria",
+        "family": "Tudora"
+      },
+      {
+        "given": "Peter",
+        "family": "Vajkoczy"
+      },
+      {
+        "given": "Shirley",
+        "family": "Vallance"
+      },
+      {
+        "given": "Egils",
+        "family": "Valeinis"
+      },
+      {
+        "given": "Zoltán",
+        "family": "Vámos"
+      },
+      {
+        "given": "Gregory",
+        "family": "Van der Steen"
+      },
+      {
+        "given": "Joukje",
+        "family": "van der Naalt"
+      },
+      {
+        "given": "Jeroen T.J.M.",
+        "family": "van Dijck"
+      },
+      {
+        "given": "Thomas A.",
+        "family": "van Essen"
+      },
+      {
+        "given": "Wim",
+        "family": "Van Hecke"
+      },
+      {
+        "given": "Caroline",
+        "family": "van Heugten"
+      },
+      {
+        "given": "Dominique",
+        "family": "Van Praag"
+      },
+      {
+        "given": "Thijs Vande",
+        "family": "Vyvere"
+      },
+      {
+        "given": "Audrey",
+        "family": "Vanhaudenhuyse"
+      },
+      {
+        "given": "Roel P.J.",
+        "family": "van Wijk"
+      },
+      {
+        "given": "Alessia",
+        "family": "Vargiolu"
+      },
+      {
+        "given": "Emmanuel",
+        "family": "Vega"
+      },
+      {
+        "given": "Kimberley",
+        "family": "Velt"
+      },
+      {
+        "given": "Jan",
+        "family": "Verheyden"
+      },
+      {
+        "given": "Paul M.",
+        "family": "Vespa"
+      },
+      {
+        "given": "Anne",
+        "family": "Vik"
+      },
+      {
+        "given": "Rimantas",
+        "family": "Vilcinis"
+      },
+      {
+        "given": "Victor",
+        "family": "Volovici"
+      },
+      {
+        "given": "Nicole",
+        "family": "von Steinbüchel"
+      },
+      {
+        "given": "Daphne",
+        "family": "Voormolen"
+      },
+      {
+        "given": "Petar",
+        "family": "Vulekovic"
+      },
+      {
+        "given": "Kevin K.W.",
+        "family": "Wang"
+      },
+      {
+        "given": "Eveline",
+        "family": "Wiegers"
+      },
+      {
+        "given": "Guy",
+        "family": "Williams"
+      },
+      {
+        "given": "Lindsay",
+        "family": "Wilson"
+      },
+      {
+        "given": "Stefan",
+        "family": "Winzeck"
+      },
+      {
+        "given": "Stefan",
+        "family": "Wolf"
+      },
+      {
+        "given": "Zhihui",
+        "family": "Yang"
+      },
+      {
+        "given": "Peter",
+        "family": "Ylén"
+      },
+      {
+        "given": "Alexander",
+        "family": "Younsi"
+      },
+      {
+        "given": "Frederik A.",
+        "family": "Zeiler"
+      },
+      {
+        "given": "Veronika",
+        "family": "Zelinkova"
+      },
+      {
+        "given": "Agate",
+        "family": "Ziverte"
+      },
+      {
+        "given": "Tommaso",
+        "family": "Zoerle"
+      }
+    ],
+    "container-title": "Journal of Clinical Epidemiology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3
+        ]
+      ]
+    },
+    "URL": "https://doi.org/ggp6r7",
+    "container-title-short": "Journal of Clinical Epidemiology",
+    "PMID": "32201256",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.2.4 using citation-by-identifier.\nstandard_id: doi:10.1016/j.jclinepi.2020.03.005",
+    "id": "1DxCZu0Rz"
+  },
+  {
+    "publisher": "Elsevier BV",
     "DOI": "10.1016/j.resuscitation.2016.02.005",
     "type": "article-journal",
     "page": "1-5",
@@ -293,10 +1301,14 @@
   },
   {
     "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Automated machine learning (AutoML) systems are helpful data science assistants designed to scan data for novel features, select appropriate supervised learning models and optimize their parameters. For this purpose, Tree-based Pipeline Optimization Tool (TPOT) was developed using strongly typed genetic programing (GP) to recommend an optimized analysis pipeline for the data scientist’s prediction problem. However, like other AutoML systems, TPOT may reach computational resource limits when working on big data such as whole-genome expression data.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We introduce two new features implemented in TPOT that helps increase the system’s scalability: Feature Set Selector (FSS) and Template. FSS provides the option to specify subsets of the features as separate datasets, assuming the signals come from one or more of these specific data subsets. FSS increases TPOT’s efficiency in application on big data by slicing the entire dataset into smaller sets of features and allowing GP to select the best subset in the final pipeline. Template enforces type constraints with strongly typed GP and enables the incorporation of FSS at the beginning of each pipeline. Consequently, FSS and Template help reduce TPOT computation time and may provide more interpretable results. Our simulations show TPOT-FSS significantly outperforms a tuned XGBoost model and standard TPOT implementation. We apply TPOT-FSS to real RNA-Seq data from a study of major depressive disorder. Independent of the previous study that identified significant association with depression severity of two modules, TPOT-FSS corroborates that one of the modules is largely predictive of the clinical diagnosis of each individual.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>Detailed simulation and analysis code needed to reproduce the results in this study is available at https://github.com/lelaboratoire/tpot-fss. Implementation of the new TPOT operators is available at https://github.com/EpistasisLab/tpot.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n               </jats:sec>",
     "DOI": "10.1093/bioinformatics/btz470",
     "type": "article-journal",
+    "page": "250-256",
     "source": "Crossref",
     "title": "Scaling tree-based automated machine learning to biomedical big data with a feature set selector",
+    "volume": "36",
     "author": [
       {
         "given": "Trang T",
@@ -329,6 +1341,7 @@
       ]
     },
     "URL": "https://doi.org/gf3tds",
+    "PMCID": "PMC6956793",
     "PMID": "31165141",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.2.4 using citation-by-identifier.\nstandard_id: doi:10.1093/bioinformatics/btz470",
     "id": "17a3WKGzu"
@@ -571,8 +1584,8 @@
       "date-parts": [
         [
           "2020",
-          2,
-          6
+          3,
+          27
         ]
       ]
     }
@@ -664,8 +1677,8 @@
       "date-parts": [
         [
           "2020",
-          2,
-          6
+          3,
+          27
         ]
       ]
     },
